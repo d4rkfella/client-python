@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_sm_bios_configuration import V1SMBiosConfiguration  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_sm_bios_configuration import V1SMBiosConfiguration
 
 
 class TestV1SMBiosConfiguration(unittest.TestCase):
-    """ V1SMBiosConfiguration unit test stubs """
+    """V1SMBiosConfiguration unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1SMBiosConfiguration(unittest.TestCase):
         pass
 
     def testV1SMBiosConfiguration(self):
-        """
-        Test V1SMBiosConfiguration
-        """
+        """Test V1SMBiosConfiguration"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_sm_bios_configuration.V1SMBiosConfiguration()
+        # model = kubevirt.models.v1_sm_bios_configuration.V1SMBiosConfiguration()  # noqa: E501
         pass
 
 

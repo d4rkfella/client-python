@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_access_credential import V1AccessCredential  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_access_credential import V1AccessCredential
 
 
 class TestV1AccessCredential(unittest.TestCase):
-    """ V1AccessCredential unit test stubs """
+    """V1AccessCredential unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1AccessCredential(unittest.TestCase):
         pass
 
     def testV1AccessCredential(self):
-        """
-        Test V1AccessCredential
-        """
+        """Test V1AccessCredential"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_access_credential.V1AccessCredential()
+        # model = kubevirt.models.v1_access_credential.V1AccessCredential()  # noqa: E501
         pass
 
 

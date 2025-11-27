@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1beta1_data_volume_source_gcs import V1beta1DataVolumeSourceGCS  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1beta1_data_volume_source_gcs import V1beta1DataVolumeSourceGCS
 
 
 class TestV1beta1DataVolumeSourceGCS(unittest.TestCase):
-    """ V1beta1DataVolumeSourceGCS unit test stubs """
+    """V1beta1DataVolumeSourceGCS unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1beta1DataVolumeSourceGCS(unittest.TestCase):
         pass
 
     def testV1beta1DataVolumeSourceGCS(self):
-        """
-        Test V1beta1DataVolumeSourceGCS
-        """
+        """Test V1beta1DataVolumeSourceGCS"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1beta1_data_volume_source_gcs.V1beta1DataVolumeSourceGCS()
+        # model = kubevirt.models.v1beta1_data_volume_source_gcs.V1beta1DataVolumeSourceGCS()  # noqa: E501
         pass
 
 

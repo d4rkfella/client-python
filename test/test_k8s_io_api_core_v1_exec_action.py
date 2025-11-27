@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.k8s_io_api_core_v1_exec_action import K8sIoApiCoreV1ExecAction  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.k8s_io_api_core_v1_exec_action import K8sIoApiCoreV1ExecAction
 
 
 class TestK8sIoApiCoreV1ExecAction(unittest.TestCase):
-    """ K8sIoApiCoreV1ExecAction unit test stubs """
+    """K8sIoApiCoreV1ExecAction unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestK8sIoApiCoreV1ExecAction(unittest.TestCase):
         pass
 
     def testK8sIoApiCoreV1ExecAction(self):
-        """
-        Test K8sIoApiCoreV1ExecAction
-        """
+        """Test K8sIoApiCoreV1ExecAction"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.k8s_io_api_core_v1_exec_action.K8sIoApiCoreV1ExecAction()
+        # model = kubevirt.models.k8s_io_api_core_v1_exec_action.K8sIoApiCoreV1ExecAction()  # noqa: E501
         pass
 
 

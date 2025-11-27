@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_deprecated_interface_passt import V1DeprecatedInterfacePasst  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_deprecated_interface_passt import V1DeprecatedInterfacePasst
 
 
 class TestV1DeprecatedInterfacePasst(unittest.TestCase):
-    """ V1DeprecatedInterfacePasst unit test stubs """
+    """V1DeprecatedInterfacePasst unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1DeprecatedInterfacePasst(unittest.TestCase):
         pass
 
     def testV1DeprecatedInterfacePasst(self):
-        """
-        Test V1DeprecatedInterfacePasst
-        """
+        """Test V1DeprecatedInterfacePasst"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_deprecated_interface_passt.V1DeprecatedInterfacePasst()
+        # model = kubevirt.models.v1_deprecated_interface_passt.V1DeprecatedInterfacePasst()  # noqa: E501
         pass
 
 

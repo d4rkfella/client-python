@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1beta1_virtual_machine_cluster_instancetype_list import V1beta1VirtualMachineClusterInstancetypeList  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1beta1_virtual_machine_cluster_instancetype_list import V1beta1VirtualMachineClusterInstancetypeList
 
 
 class TestV1beta1VirtualMachineClusterInstancetypeList(unittest.TestCase):
-    """ V1beta1VirtualMachineClusterInstancetypeList unit test stubs """
+    """V1beta1VirtualMachineClusterInstancetypeList unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1beta1VirtualMachineClusterInstancetypeList(unittest.TestCase):
         pass
 
     def testV1beta1VirtualMachineClusterInstancetypeList(self):
-        """
-        Test V1beta1VirtualMachineClusterInstancetypeList
-        """
+        """Test V1beta1VirtualMachineClusterInstancetypeList"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1beta1_virtual_machine_cluster_instancetype_list.V1beta1VirtualMachineClusterInstancetypeList()
+        # model = kubevirt.models.v1beta1_virtual_machine_cluster_instancetype_list.V1beta1VirtualMachineClusterInstancetypeList()  # noqa: E501
         pass
 
 

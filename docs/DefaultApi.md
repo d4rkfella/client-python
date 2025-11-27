@@ -13,7 +13,7 @@ Method | HTTP request | Description
 [**create_namespaced_virtual_machine_instance_preset**](DefaultApi.md#create_namespaced_virtual_machine_instance_preset) | **POST** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets | 
 [**create_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#create_namespaced_virtual_machine_instance_replica_set) | **POST** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets | 
 [**create_namespaced_virtual_machine_instancetype**](DefaultApi.md#create_namespaced_virtual_machine_instancetype) | **POST** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachineinstancetypes | 
-[**create_namespaced_virtual_machine_pool**](DefaultApi.md#create_namespaced_virtual_machine_pool) | **POST** /apis/pool.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepools | 
+[**create_namespaced_virtual_machine_pool**](DefaultApi.md#create_namespaced_virtual_machine_pool) | **POST** /apis/pool.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinepools | 
 [**create_namespaced_virtual_machine_preference**](DefaultApi.md#create_namespaced_virtual_machine_preference) | **POST** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepreferences | 
 [**create_namespaced_virtual_machine_restore**](DefaultApi.md#create_namespaced_virtual_machine_restore) | **POST** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinerestores | 
 [**create_namespaced_virtual_machine_snapshot**](DefaultApi.md#create_namespaced_virtual_machine_snapshot) | **POST** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinesnapshots | 
@@ -30,7 +30,7 @@ Method | HTTP request | Description
 [**delete_collection_namespaced_virtual_machine_instance_preset**](DefaultApi.md#delete_collection_namespaced_virtual_machine_instance_preset) | **DELETE** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets | 
 [**delete_collection_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#delete_collection_namespaced_virtual_machine_instance_replica_set) | **DELETE** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets | 
 [**delete_collection_namespaced_virtual_machine_instancetype**](DefaultApi.md#delete_collection_namespaced_virtual_machine_instancetype) | **DELETE** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachineinstancetypes | 
-[**delete_collection_namespaced_virtual_machine_pool**](DefaultApi.md#delete_collection_namespaced_virtual_machine_pool) | **DELETE** /apis/pool.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepools | 
+[**delete_collection_namespaced_virtual_machine_pool**](DefaultApi.md#delete_collection_namespaced_virtual_machine_pool) | **DELETE** /apis/pool.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinepools | 
 [**delete_collection_namespaced_virtual_machine_preference**](DefaultApi.md#delete_collection_namespaced_virtual_machine_preference) | **DELETE** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepreferences | 
 [**delete_collection_namespaced_virtual_machine_restore**](DefaultApi.md#delete_collection_namespaced_virtual_machine_restore) | **DELETE** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinerestores | 
 [**delete_collection_namespaced_virtual_machine_snapshot**](DefaultApi.md#delete_collection_namespaced_virtual_machine_snapshot) | **DELETE** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinesnapshots | 
@@ -47,7 +47,7 @@ Method | HTTP request | Description
 [**delete_namespaced_virtual_machine_instance_preset**](DefaultApi.md#delete_namespaced_virtual_machine_instance_preset) | **DELETE** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets/{name} | 
 [**delete_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#delete_namespaced_virtual_machine_instance_replica_set) | **DELETE** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets/{name} | 
 [**delete_namespaced_virtual_machine_instancetype**](DefaultApi.md#delete_namespaced_virtual_machine_instancetype) | **DELETE** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachineinstancetypes/{name} | 
-[**delete_namespaced_virtual_machine_pool**](DefaultApi.md#delete_namespaced_virtual_machine_pool) | **DELETE** /apis/pool.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepools/{name} | 
+[**delete_namespaced_virtual_machine_pool**](DefaultApi.md#delete_namespaced_virtual_machine_pool) | **DELETE** /apis/pool.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinepools/{name} | 
 [**delete_namespaced_virtual_machine_preference**](DefaultApi.md#delete_namespaced_virtual_machine_preference) | **DELETE** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepreferences/{name} | 
 [**delete_namespaced_virtual_machine_restore**](DefaultApi.md#delete_namespaced_virtual_machine_restore) | **DELETE** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinerestores/{name} | 
 [**delete_namespaced_virtual_machine_snapshot**](DefaultApi.md#delete_namespaced_virtual_machine_snapshot) | **DELETE** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinesnapshots/{name} | 
@@ -55,7 +55,7 @@ Method | HTTP request | Description
 [**delete_virtual_machine_clone**](DefaultApi.md#delete_virtual_machine_clone) | **DELETE** /apis/clone.kubevirt.io/v1beta1/virtualmachineclones/{name} | 
 [**delete_virtual_machine_cluster_instancetype**](DefaultApi.md#delete_virtual_machine_cluster_instancetype) | **DELETE** /apis/instancetype.kubevirt.io/v1beta1/virtualmachineclusterinstancetypes/{name} | 
 [**delete_virtual_machine_cluster_preference**](DefaultApi.md#delete_virtual_machine_cluster_preference) | **DELETE** /apis/instancetype.kubevirt.io/v1beta1/virtualmachineclusterpreferences/{name} | 
-[**func15**](DefaultApi.md#func15) | **GET** /healthz | 
+[**func13**](DefaultApi.md#func13) | **GET** /healthz | 
 [**func6**](DefaultApi.md#func6) | **GET** /openapi/v2 | 
 [**get_api_group_clone_kubevirt_io**](DefaultApi.md#get_api_group_clone_kubevirt_io) | **GET** /apis/clone.kubevirt.io/ | 
 [**get_api_group_export_kubevirt_io**](DefaultApi.md#get_api_group_export_kubevirt_io) | **GET** /apis/export.kubevirt.io/ | 
@@ -70,7 +70,7 @@ Method | HTTP request | Description
 [**get_api_resources_instancetype_kubevirt_io_v1beta1**](DefaultApi.md#get_api_resources_instancetype_kubevirt_io_v1beta1) | **GET** /apis/instancetype.kubevirt.io/v1beta1/ | 
 [**get_api_resources_kubevirt_io_v1**](DefaultApi.md#get_api_resources_kubevirt_io_v1) | **GET** /apis/kubevirt.io/v1/ | 
 [**get_api_resources_migrations_kubevirt_io_v1alpha1**](DefaultApi.md#get_api_resources_migrations_kubevirt_io_v1alpha1) | **GET** /apis/migrations.kubevirt.io/v1alpha1/ | 
-[**get_api_resources_pool_kubevirt_io_v1beta1**](DefaultApi.md#get_api_resources_pool_kubevirt_io_v1beta1) | **GET** /apis/pool.kubevirt.io/v1beta1/ | 
+[**get_api_resources_pool_kubevirt_io_v1alpha1**](DefaultApi.md#get_api_resources_pool_kubevirt_io_v1alpha1) | **GET** /apis/pool.kubevirt.io/v1alpha1/ | 
 [**get_api_resources_snapshot_kubevirt_io_v1beta1**](DefaultApi.md#get_api_resources_snapshot_kubevirt_io_v1beta1) | **GET** /apis/snapshot.kubevirt.io/v1beta1/ | 
 [**get_root_paths**](DefaultApi.md#get_root_paths) | **GET** / | 
 [**handle_dump_profiler**](DefaultApi.md#handle_dump_profiler) | **GET** /dump-profiler | 
@@ -86,7 +86,7 @@ Method | HTTP request | Description
 [**list_namespaced_virtual_machine_instance_preset**](DefaultApi.md#list_namespaced_virtual_machine_instance_preset) | **GET** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets | 
 [**list_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#list_namespaced_virtual_machine_instance_replica_set) | **GET** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets | 
 [**list_namespaced_virtual_machine_instancetype**](DefaultApi.md#list_namespaced_virtual_machine_instancetype) | **GET** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachineinstancetypes | 
-[**list_namespaced_virtual_machine_pool**](DefaultApi.md#list_namespaced_virtual_machine_pool) | **GET** /apis/pool.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepools | 
+[**list_namespaced_virtual_machine_pool**](DefaultApi.md#list_namespaced_virtual_machine_pool) | **GET** /apis/pool.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinepools | 
 [**list_namespaced_virtual_machine_preference**](DefaultApi.md#list_namespaced_virtual_machine_preference) | **GET** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepreferences | 
 [**list_namespaced_virtual_machine_restore**](DefaultApi.md#list_namespaced_virtual_machine_restore) | **GET** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinerestores | 
 [**list_namespaced_virtual_machine_snapshot**](DefaultApi.md#list_namespaced_virtual_machine_snapshot) | **GET** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinesnapshots | 
@@ -101,7 +101,7 @@ Method | HTTP request | Description
 [**list_virtual_machine_instance_preset_for_all_namespaces**](DefaultApi.md#list_virtual_machine_instance_preset_for_all_namespaces) | **GET** /apis/kubevirt.io/v1/virtualmachineinstancepresets | 
 [**list_virtual_machine_instance_replica_set_for_all_namespaces**](DefaultApi.md#list_virtual_machine_instance_replica_set_for_all_namespaces) | **GET** /apis/kubevirt.io/v1/virtualmachineinstancereplicasets | 
 [**list_virtual_machine_instancetype_for_all_namespaces**](DefaultApi.md#list_virtual_machine_instancetype_for_all_namespaces) | **GET** /apis/instancetype.kubevirt.io/v1beta1/virtualmachineinstancetypes | 
-[**list_virtual_machine_pool_for_all_namespaces**](DefaultApi.md#list_virtual_machine_pool_for_all_namespaces) | **GET** /apis/pool.kubevirt.io/v1beta1/virtualmachinepools | 
+[**list_virtual_machine_pool_for_all_namespaces**](DefaultApi.md#list_virtual_machine_pool_for_all_namespaces) | **GET** /apis/pool.kubevirt.io/v1alpha1/virtualmachinepools | 
 [**list_virtual_machine_preference_for_all_namespaces**](DefaultApi.md#list_virtual_machine_preference_for_all_namespaces) | **GET** /apis/instancetype.kubevirt.io/v1beta1/virtualmachinepreferences | 
 [**list_virtual_machine_restore_for_all_namespaces**](DefaultApi.md#list_virtual_machine_restore_for_all_namespaces) | **GET** /apis/snapshot.kubevirt.io/v1beta1/virtualmachinerestores | 
 [**list_virtual_machine_snapshot_content_for_all_namespaces**](DefaultApi.md#list_virtual_machine_snapshot_content_for_all_namespaces) | **GET** /apis/snapshot.kubevirt.io/v1beta1/virtualmachinesnapshotcontents | 
@@ -115,7 +115,7 @@ Method | HTTP request | Description
 [**patch_namespaced_virtual_machine_instance_preset**](DefaultApi.md#patch_namespaced_virtual_machine_instance_preset) | **PATCH** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets/{name} | 
 [**patch_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#patch_namespaced_virtual_machine_instance_replica_set) | **PATCH** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets/{name} | 
 [**patch_namespaced_virtual_machine_instancetype**](DefaultApi.md#patch_namespaced_virtual_machine_instancetype) | **PATCH** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachineinstancetypes/{name} | 
-[**patch_namespaced_virtual_machine_pool**](DefaultApi.md#patch_namespaced_virtual_machine_pool) | **PATCH** /apis/pool.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepools/{name} | 
+[**patch_namespaced_virtual_machine_pool**](DefaultApi.md#patch_namespaced_virtual_machine_pool) | **PATCH** /apis/pool.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinepools/{name} | 
 [**patch_namespaced_virtual_machine_preference**](DefaultApi.md#patch_namespaced_virtual_machine_preference) | **PATCH** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepreferences/{name} | 
 [**patch_namespaced_virtual_machine_restore**](DefaultApi.md#patch_namespaced_virtual_machine_restore) | **PATCH** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinerestores/{name} | 
 [**patch_namespaced_virtual_machine_snapshot**](DefaultApi.md#patch_namespaced_virtual_machine_snapshot) | **PATCH** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinesnapshots/{name} | 
@@ -132,7 +132,7 @@ Method | HTTP request | Description
 [**read_namespaced_virtual_machine_instance_preset**](DefaultApi.md#read_namespaced_virtual_machine_instance_preset) | **GET** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets/{name} | 
 [**read_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#read_namespaced_virtual_machine_instance_replica_set) | **GET** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets/{name} | 
 [**read_namespaced_virtual_machine_instancetype**](DefaultApi.md#read_namespaced_virtual_machine_instancetype) | **GET** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachineinstancetypes/{name} | 
-[**read_namespaced_virtual_machine_pool**](DefaultApi.md#read_namespaced_virtual_machine_pool) | **GET** /apis/pool.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepools/{name} | 
+[**read_namespaced_virtual_machine_pool**](DefaultApi.md#read_namespaced_virtual_machine_pool) | **GET** /apis/pool.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinepools/{name} | 
 [**read_namespaced_virtual_machine_preference**](DefaultApi.md#read_namespaced_virtual_machine_preference) | **GET** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepreferences/{name} | 
 [**read_namespaced_virtual_machine_restore**](DefaultApi.md#read_namespaced_virtual_machine_restore) | **GET** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinerestores/{name} | 
 [**read_namespaced_virtual_machine_snapshot**](DefaultApi.md#read_namespaced_virtual_machine_snapshot) | **GET** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinesnapshots/{name} | 
@@ -149,7 +149,7 @@ Method | HTTP request | Description
 [**replace_namespaced_virtual_machine_instance_preset**](DefaultApi.md#replace_namespaced_virtual_machine_instance_preset) | **PUT** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets/{name} | 
 [**replace_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#replace_namespaced_virtual_machine_instance_replica_set) | **PUT** /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets/{name} | 
 [**replace_namespaced_virtual_machine_instancetype**](DefaultApi.md#replace_namespaced_virtual_machine_instancetype) | **PUT** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachineinstancetypes/{name} | 
-[**replace_namespaced_virtual_machine_pool**](DefaultApi.md#replace_namespaced_virtual_machine_pool) | **PUT** /apis/pool.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepools/{name} | 
+[**replace_namespaced_virtual_machine_pool**](DefaultApi.md#replace_namespaced_virtual_machine_pool) | **PUT** /apis/pool.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinepools/{name} | 
 [**replace_namespaced_virtual_machine_preference**](DefaultApi.md#replace_namespaced_virtual_machine_preference) | **PUT** /apis/instancetype.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinepreferences/{name} | 
 [**replace_namespaced_virtual_machine_restore**](DefaultApi.md#replace_namespaced_virtual_machine_restore) | **PUT** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinerestores/{name} | 
 [**replace_namespaced_virtual_machine_snapshot**](DefaultApi.md#replace_namespaced_virtual_machine_snapshot) | **PUT** /apis/snapshot.kubevirt.io/v1beta1/namespaces/{namespace}/virtualmachinesnapshots/{name} | 
@@ -218,14 +218,12 @@ Method | HTTP request | Description
 [**v1alpha3stop_cluster_profiler**](DefaultApi.md#v1alpha3stop_cluster_profiler) | **GET** /apis/subresources.kubevirt.io/v1alpha3/stop-cluster-profiler | 
 [**v1alpha3usbredir**](DefaultApi.md#v1alpha3usbredir) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachineinstances/{name}/usbredir | 
 [**v1alpha3vm_addvolume**](DefaultApi.md#v1alpha3vm_addvolume) | **PUT** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachines/{name}/addvolume | 
-[**v1alpha3vm_evacuatecancel**](DefaultApi.md#v1alpha3vm_evacuatecancel) | **PUT** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachines/{name}/evacuate/cancel | 
 [**v1alpha3vm_expand_spec**](DefaultApi.md#v1alpha3vm_expand_spec) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachines/{name}/expand-spec | 
 [**v1alpha3vm_objectgraph**](DefaultApi.md#v1alpha3vm_objectgraph) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachines/{name}/objectgraph | 
 [**v1alpha3vm_port_forward**](DefaultApi.md#v1alpha3vm_port_forward) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachines/{name}/portforward/{port} | 
 [**v1alpha3vm_port_forward_with_protocol**](DefaultApi.md#v1alpha3vm_port_forward_with_protocol) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachines/{name}/portforward/{port}/{protocol} | 
 [**v1alpha3vm_removevolume**](DefaultApi.md#v1alpha3vm_removevolume) | **PUT** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachines/{name}/removevolume | 
 [**v1alpha3vmi_addvolume**](DefaultApi.md#v1alpha3vmi_addvolume) | **PUT** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachineinstances/{name}/addvolume | 
-[**v1alpha3vmi_evacuatecancel**](DefaultApi.md#v1alpha3vmi_evacuatecancel) | **PUT** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachineinstances/{name}/evacuate/cancel | 
 [**v1alpha3vmi_objectgraph**](DefaultApi.md#v1alpha3vmi_objectgraph) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachineinstances/{name}/objectgraph | 
 [**v1alpha3vmi_port_forward**](DefaultApi.md#v1alpha3vmi_port_forward) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachineinstances/{name}/portforward/{port} | 
 [**v1alpha3vmi_port_forward_with_protocol**](DefaultApi.md#v1alpha3vmi_port_forward_with_protocol) | **GET** /apis/subresources.kubevirt.io/v1alpha3/namespaces/{namespace}/virtualmachineinstances/{name}/portforward/{port}/{protocol} | 
@@ -236,14 +234,12 @@ Method | HTTP request | Description
 [**v1stop_cluster_profiler**](DefaultApi.md#v1stop_cluster_profiler) | **GET** /apis/subresources.kubevirt.io/v1/stop-cluster-profiler | 
 [**v1usbredir**](DefaultApi.md#v1usbredir) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/usbredir | 
 [**v1vm_addvolume**](DefaultApi.md#v1vm_addvolume) | **PUT** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}/addvolume | 
-[**v1vm_evacuatecancel**](DefaultApi.md#v1vm_evacuatecancel) | **PUT** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}/evacuate/cancel | 
 [**v1vm_expand_spec**](DefaultApi.md#v1vm_expand_spec) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}/expand-spec | 
 [**v1vm_objectgraph**](DefaultApi.md#v1vm_objectgraph) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}/objectgraph | 
 [**v1vm_port_forward**](DefaultApi.md#v1vm_port_forward) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}/portforward/{port} | 
 [**v1vm_port_forward_with_protocol**](DefaultApi.md#v1vm_port_forward_with_protocol) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}/portforward/{port}/{protocol} | 
 [**v1vm_removevolume**](DefaultApi.md#v1vm_removevolume) | **PUT** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}/removevolume | 
 [**v1vmi_addvolume**](DefaultApi.md#v1vmi_addvolume) | **PUT** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/addvolume | 
-[**v1vmi_evacuatecancel**](DefaultApi.md#v1vmi_evacuatecancel) | **PUT** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/evacuate/cancel | 
 [**v1vmi_objectgraph**](DefaultApi.md#v1vmi_objectgraph) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/objectgraph | 
 [**v1vmi_port_forward**](DefaultApi.md#v1vmi_port_forward) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/portforward/{port} | 
 [**v1vmi_port_forward_with_protocol**](DefaultApi.md#v1vmi_port_forward_with_protocol) | **GET** /apis/subresources.kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/portforward/{port}/{protocol} | 
@@ -258,7 +254,7 @@ Method | HTTP request | Description
 [**watch_namespaced_virtual_machine_instance_preset**](DefaultApi.md#watch_namespaced_virtual_machine_instance_preset) | **GET** /apis/kubevirt.io/v1/watch/namespaces/{namespace}/virtualmachineinstancepresets | 
 [**watch_namespaced_virtual_machine_instance_replica_set**](DefaultApi.md#watch_namespaced_virtual_machine_instance_replica_set) | **GET** /apis/kubevirt.io/v1/watch/namespaces/{namespace}/virtualmachineinstancereplicasets | 
 [**watch_namespaced_virtual_machine_instancetype**](DefaultApi.md#watch_namespaced_virtual_machine_instancetype) | **GET** /apis/instancetype.kubevirt.io/v1beta1/watch/namespaces/{namespace}/virtualmachineinstancetypes | 
-[**watch_namespaced_virtual_machine_pool**](DefaultApi.md#watch_namespaced_virtual_machine_pool) | **GET** /apis/pool.kubevirt.io/v1beta1/watch/namespaces/{namespace}/virtualmachinepools | 
+[**watch_namespaced_virtual_machine_pool**](DefaultApi.md#watch_namespaced_virtual_machine_pool) | **GET** /apis/pool.kubevirt.io/v1alpha1/watch/namespaces/{namespace}/virtualmachinepools | 
 [**watch_namespaced_virtual_machine_preference**](DefaultApi.md#watch_namespaced_virtual_machine_preference) | **GET** /apis/instancetype.kubevirt.io/v1beta1/watch/namespaces/{namespace}/virtualmachinepreferences | 
 [**watch_namespaced_virtual_machine_restore**](DefaultApi.md#watch_namespaced_virtual_machine_restore) | **GET** /apis/snapshot.kubevirt.io/v1beta1/watch/namespaces/{namespace}/virtualmachinerestores | 
 [**watch_namespaced_virtual_machine_snapshot**](DefaultApi.md#watch_namespaced_virtual_machine_snapshot) | **GET** /apis/snapshot.kubevirt.io/v1beta1/watch/namespaces/{namespace}/virtualmachinesnapshots | 
@@ -273,7 +269,7 @@ Method | HTTP request | Description
 [**watch_virtual_machine_instance_replica_set_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_instance_replica_set_list_for_all_namespaces) | **GET** /apis/kubevirt.io/v1/watch/virtualmachineinstancereplicasets | 
 [**watch_virtual_machine_instancetype_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_instancetype_list_for_all_namespaces) | **GET** /apis/instancetype.kubevirt.io/v1beta1/watch/virtualmachineinstancetypes | 
 [**watch_virtual_machine_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_list_for_all_namespaces) | **GET** /apis/kubevirt.io/v1/watch/virtualmachines | 
-[**watch_virtual_machine_pool_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_pool_list_for_all_namespaces) | **GET** /apis/pool.kubevirt.io/v1beta1/watch/virtualmachinepools | 
+[**watch_virtual_machine_pool_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_pool_list_for_all_namespaces) | **GET** /apis/pool.kubevirt.io/v1alpha1/watch/virtualmachinepools | 
 [**watch_virtual_machine_preference_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_preference_list_for_all_namespaces) | **GET** /apis/instancetype.kubevirt.io/v1beta1/watch/virtualmachinepreferences | 
 [**watch_virtual_machine_restore_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_restore_list_for_all_namespaces) | **GET** /apis/snapshot.kubevirt.io/v1beta1/watch/virtualmachinerestores | 
 [**watch_virtual_machine_snapshot_content_list_for_all_namespaces**](DefaultApi.md#watch_virtual_machine_snapshot_content_list_for_all_namespaces) | **GET** /apis/snapshot.kubevirt.io/v1beta1/watch/virtualmachinesnapshotcontents | 
@@ -287,7 +283,7 @@ Method | HTTP request | Description
 
 Create a MigrationPolicy object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -299,7 +295,7 @@ from pprint import pprint
 api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1alpha1MigrationPolicy() # V1alpha1MigrationPolicy | 
 
-try: 
+try:
     api_response = api_instance.create_migration_policy(body)
     pprint(api_response)
 except ApiException as e:
@@ -334,7 +330,7 @@ No authorization required
 
 Create a KubeVirt object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -347,7 +343,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1KubeVirt() # V1KubeVirt | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_kube_virt(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -383,7 +379,7 @@ No authorization required
 
 Create a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -396,7 +392,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1VirtualMachine() # V1VirtualMachine | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -432,7 +428,7 @@ No authorization required
 
 Create a VirtualMachineExport object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -445,7 +441,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineExport() # V1beta1VirtualMachineExport | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_export(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -481,7 +477,7 @@ No authorization required
 
 Create a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -494,7 +490,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1VirtualMachineInstance() # V1VirtualMachineInstance | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_instance(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -530,7 +526,7 @@ No authorization required
 
 Create a VirtualMachineInstanceMigration object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -543,7 +539,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1VirtualMachineInstanceMigration() # V1VirtualMachineInstanceMigration | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_instance_migration(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -579,7 +575,7 @@ No authorization required
 
 Create a VirtualMachineInstancePreset object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -592,7 +588,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1VirtualMachineInstancePreset() # V1VirtualMachineInstancePreset | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_instance_preset(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -628,7 +624,7 @@ No authorization required
 
 Create a VirtualMachineInstanceReplicaSet object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -641,7 +637,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1VirtualMachineInstanceReplicaSet() # V1VirtualMachineInstanceReplicaSet | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_instance_replica_set(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -677,7 +673,7 @@ No authorization required
 
 Create a VirtualMachineInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -690,7 +686,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineInstancetype() # V1beta1VirtualMachineInstancetype | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_instancetype(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -720,13 +716,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **create_namespaced_virtual_machine_pool**
-> V1beta1VirtualMachinePool create_namespaced_virtual_machine_pool(body, namespace)
+> V1alpha1VirtualMachinePool create_namespaced_virtual_machine_pool(body, namespace)
 
 
 
 Create a VirtualMachinePool object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -736,10 +732,10 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
-body = kubevirt.V1beta1VirtualMachinePool() # V1beta1VirtualMachinePool | 
+body = kubevirt.V1alpha1VirtualMachinePool() # V1alpha1VirtualMachinePool | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_pool(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -750,12 +746,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V1beta1VirtualMachinePool**](V1beta1VirtualMachinePool.md)|  | 
+ **body** | [**V1alpha1VirtualMachinePool**](V1alpha1VirtualMachinePool.md)|  | 
  **namespace** | **str**| Object name and auth scope, such as for teams and projects | 
 
 ### Return type
 
-[**V1beta1VirtualMachinePool**](V1beta1VirtualMachinePool.md)
+[**V1alpha1VirtualMachinePool**](V1alpha1VirtualMachinePool.md)
 
 ### Authorization
 
@@ -775,7 +771,7 @@ No authorization required
 
 Create a VirtualMachinePreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -788,7 +784,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachinePreference() # V1beta1VirtualMachinePreference | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_preference(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -824,7 +820,7 @@ No authorization required
 
 Create a VirtualMachineRestore object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -837,7 +833,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineRestore() # V1beta1VirtualMachineRestore | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_restore(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -873,7 +869,7 @@ No authorization required
 
 Create a VirtualMachineSnapshot object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -886,7 +882,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineSnapshot() # V1beta1VirtualMachineSnapshot | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_snapshot(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -922,7 +918,7 @@ No authorization required
 
 Create a VirtualMachineSnapshotContent object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -935,7 +931,7 @@ api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineSnapshotContent() # V1beta1VirtualMachineSnapshotContent | 
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.create_namespaced_virtual_machine_snapshot_content(body, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -971,7 +967,7 @@ No authorization required
 
 Create a VirtualMachineClone object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -983,7 +979,7 @@ from pprint import pprint
 api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineClone() # V1beta1VirtualMachineClone | 
 
-try: 
+try:
     api_response = api_instance.create_virtual_machine_clone(body)
     pprint(api_response)
 except ApiException as e:
@@ -1018,7 +1014,7 @@ No authorization required
 
 Create a VirtualMachineClusterInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1030,7 +1026,7 @@ from pprint import pprint
 api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineClusterInstancetype() # V1beta1VirtualMachineClusterInstancetype | 
 
-try: 
+try:
     api_response = api_instance.create_virtual_machine_cluster_instancetype(body)
     pprint(api_response)
 except ApiException as e:
@@ -1065,7 +1061,7 @@ No authorization required
 
 Create a VirtualMachineClusterPreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1077,7 +1073,7 @@ from pprint import pprint
 api_instance = kubevirt.DefaultApi()
 body = kubevirt.V1beta1VirtualMachineClusterPreference() # V1beta1VirtualMachineClusterPreference | 
 
-try: 
+try:
     api_response = api_instance.create_virtual_machine_cluster_preference(body)
     pprint(api_response)
 except ApiException as e:
@@ -1112,7 +1108,7 @@ No authorization required
 
 Delete a collection of MigrationPolicy objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1131,7 +1127,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_migration_policy(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1173,7 +1169,7 @@ No authorization required
 
 Delete a collection of KubeVirt objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1192,7 +1188,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_kube_virt(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1234,7 +1230,7 @@ No authorization required
 
 Delete a collection of VirtualMachine objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1253,7 +1249,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1295,7 +1291,7 @@ No authorization required
 
 Delete a collection of VirtualMachineExport objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1314,7 +1310,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_export(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1356,7 +1352,7 @@ No authorization required
 
 Delete a collection of VirtualMachineInstance objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1375,7 +1371,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_instance(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1417,7 +1413,7 @@ No authorization required
 
 Delete a collection of VirtualMachineInstanceMigration objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1436,7 +1432,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_instance_migration(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1478,7 +1474,7 @@ No authorization required
 
 Delete a collection of VirtualMachineInstancePreset objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1497,7 +1493,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_instance_preset(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1539,7 +1535,7 @@ No authorization required
 
 Delete a collection of VirtualMachineInstanceReplicaSet objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1558,7 +1554,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_instance_replica_set(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1600,7 +1596,7 @@ No authorization required
 
 Delete a collection of VirtualMachineInstancetype objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1619,7 +1615,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_instancetype(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1661,7 +1657,7 @@ No authorization required
 
 Delete a collection of VirtualMachinePool objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1680,7 +1676,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_pool(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1722,7 +1718,7 @@ No authorization required
 
 Delete a collection of VirtualMachinePreference objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1741,7 +1737,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_preference(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1783,7 +1779,7 @@ No authorization required
 
 Delete a collection of VirtualMachineRestore objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1802,7 +1798,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_restore(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1844,7 +1840,7 @@ No authorization required
 
 Delete a collection of VirtualMachineSnapshot objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1863,7 +1859,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_snapshot(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1905,7 +1901,7 @@ No authorization required
 
 Delete a collection of VirtualMachineSnapshotContent objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1924,7 +1920,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_namespaced_virtual_machine_snapshot_content(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -1966,7 +1962,7 @@ No authorization required
 
 Delete a collection of VirtualMachineClone objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -1985,7 +1981,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_virtual_machine_clone(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -2027,7 +2023,7 @@ No authorization required
 
 Delete a collection of VirtualMachineClusterInstancetype objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2046,7 +2042,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_virtual_machine_cluster_instancetype(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -2088,7 +2084,7 @@ No authorization required
 
 Delete a collection of VirtualMachineClusterPreference objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2107,7 +2103,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_collection_virtual_machine_cluster_preference(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -2149,7 +2145,7 @@ No authorization required
 
 Delete a MigrationPolicy object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2165,7 +2161,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_migration_policy(name, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2204,7 +2200,7 @@ No authorization required
 
 Delete a KubeVirt object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2221,7 +2217,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_kube_virt(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2261,7 +2257,7 @@ No authorization required
 
 Delete a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2278,7 +2274,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2318,7 +2314,7 @@ No authorization required
 
 Delete a VirtualMachineExport object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2335,7 +2331,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_export(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2375,7 +2371,7 @@ No authorization required
 
 Delete a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2392,7 +2388,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_instance(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2432,7 +2428,7 @@ No authorization required
 
 Delete a VirtualMachineInstanceMigration object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2449,7 +2445,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_instance_migration(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2489,7 +2485,7 @@ No authorization required
 
 Delete a VirtualMachineInstancePreset object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2506,7 +2502,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_instance_preset(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2546,7 +2542,7 @@ No authorization required
 
 Delete a VirtualMachineInstanceReplicaSet object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2563,7 +2559,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_instance_replica_set(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2603,7 +2599,7 @@ No authorization required
 
 Delete a VirtualMachineInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2620,7 +2616,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_instancetype(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2660,7 +2656,7 @@ No authorization required
 
 Delete a VirtualMachinePool object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2677,7 +2673,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_pool(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2717,7 +2713,7 @@ No authorization required
 
 Delete a VirtualMachinePreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2734,7 +2730,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_preference(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2774,7 +2770,7 @@ No authorization required
 
 Delete a VirtualMachineRestore object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2791,7 +2787,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_restore(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2831,7 +2827,7 @@ No authorization required
 
 Delete a VirtualMachineSnapshot object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2848,7 +2844,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_snapshot(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2888,7 +2884,7 @@ No authorization required
 
 Delete a VirtualMachineSnapshotContent object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2905,7 +2901,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_namespaced_virtual_machine_snapshot_content(name, namespace, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -2945,7 +2941,7 @@ No authorization required
 
 Delete a VirtualMachineClone object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -2961,7 +2957,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_virtual_machine_clone(name, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -3000,7 +2996,7 @@ No authorization required
 
 Delete a VirtualMachineClusterInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3016,7 +3012,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_virtual_machine_cluster_instancetype(name, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -3055,7 +3051,7 @@ No authorization required
 
 Delete a VirtualMachineClusterPreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3071,7 +3067,7 @@ grace_period_seconds = 56 # int | The duration in seconds before the object shou
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
 propagation_policy = 'propagation_policy_example' # str | Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground. (optional)
 
-try: 
+try:
     api_response = api_instance.delete_virtual_machine_cluster_preference(name, body, grace_period_seconds=grace_period_seconds, orphan_dependents=orphan_dependents, propagation_policy=propagation_policy)
     pprint(api_response)
 except ApiException as e:
@@ -3103,14 +3099,14 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **func15**
-> func15()
+# **func13**
+> func13()
 
 
 
 Health endpoint
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3121,10 +3117,10 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
-    api_instance.func15()
+try:
+    api_instance.func13()
 except ApiException as e:
-    print("Exception when calling DefaultApi->func15: %s\n" % e)
+    print("Exception when calling DefaultApi->func13: %s\n" % e)
 ```
 
 ### Parameters
@@ -3150,7 +3146,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3161,7 +3157,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.func6()
 except ApiException as e:
     print("Exception when calling DefaultApi->func6: %s\n" % e)
@@ -3192,7 +3188,7 @@ No authorization required
 
 Get a KubeVirt API group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3203,7 +3199,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_clone_kubevirt_io()
     pprint(api_response)
 except ApiException as e:
@@ -3235,7 +3231,7 @@ No authorization required
 
 Get a KubeVirt API group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3246,7 +3242,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_export_kubevirt_io()
     pprint(api_response)
 except ApiException as e:
@@ -3278,7 +3274,7 @@ No authorization required
 
 Get a KubeVirt API group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3289,7 +3285,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_instancetype_kubevirt_io()
     pprint(api_response)
 except ApiException as e:
@@ -3321,7 +3317,7 @@ No authorization required
 
 Get a KubeVirt API group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3332,7 +3328,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_kubevirt_io()
     pprint(api_response)
 except ApiException as e:
@@ -3364,7 +3360,7 @@ No authorization required
 
 Get a KubeVirt API GroupList
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3375,7 +3371,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_list()
     pprint(api_response)
 except ApiException as e:
@@ -3407,7 +3403,7 @@ No authorization required
 
 Get a KubeVirt API group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3418,7 +3414,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_migrations_kubevirt_io()
     pprint(api_response)
 except ApiException as e:
@@ -3450,7 +3446,7 @@ No authorization required
 
 Get a KubeVirt API group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3461,7 +3457,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_pool_kubevirt_io()
     pprint(api_response)
 except ApiException as e:
@@ -3493,7 +3489,7 @@ No authorization required
 
 Get a KubeVirt API group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3504,7 +3500,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_group_snapshot_kubevirt_io()
     pprint(api_response)
 except ApiException as e:
@@ -3536,7 +3532,7 @@ No authorization required
 
 Get KubeVirt API Resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3547,7 +3543,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_resources_clone_kubevirt_io_v1beta1()
     pprint(api_response)
 except ApiException as e:
@@ -3579,7 +3575,7 @@ No authorization required
 
 Get KubeVirt API Resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3590,7 +3586,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_resources_export_kubevirt_io_v1beta1()
     pprint(api_response)
 except ApiException as e:
@@ -3622,7 +3618,7 @@ No authorization required
 
 Get KubeVirt API Resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3633,7 +3629,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_resources_instancetype_kubevirt_io_v1beta1()
     pprint(api_response)
 except ApiException as e:
@@ -3665,7 +3661,7 @@ No authorization required
 
 Get KubeVirt API Resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3676,7 +3672,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_resources_kubevirt_io_v1()
     pprint(api_response)
 except ApiException as e:
@@ -3708,7 +3704,7 @@ No authorization required
 
 Get KubeVirt API Resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3719,7 +3715,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_resources_migrations_kubevirt_io_v1alpha1()
     pprint(api_response)
 except ApiException as e:
@@ -3744,14 +3740,14 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **get_api_resources_pool_kubevirt_io_v1beta1**
-> K8sIoApimachineryPkgApisMetaV1APIResourceList get_api_resources_pool_kubevirt_io_v1beta1()
+# **get_api_resources_pool_kubevirt_io_v1alpha1**
+> K8sIoApimachineryPkgApisMetaV1APIResourceList get_api_resources_pool_kubevirt_io_v1alpha1()
 
 
 
 Get KubeVirt API Resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3762,11 +3758,11 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
-    api_response = api_instance.get_api_resources_pool_kubevirt_io_v1beta1()
+try:
+    api_response = api_instance.get_api_resources_pool_kubevirt_io_v1alpha1()
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling DefaultApi->get_api_resources_pool_kubevirt_io_v1beta1: %s\n" % e)
+    print("Exception when calling DefaultApi->get_api_resources_pool_kubevirt_io_v1alpha1: %s\n" % e)
 ```
 
 ### Parameters
@@ -3794,7 +3790,7 @@ No authorization required
 
 Get KubeVirt API Resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3805,7 +3801,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_api_resources_snapshot_kubevirt_io_v1beta1()
     pprint(api_response)
 except ApiException as e:
@@ -3837,7 +3833,7 @@ No authorization required
 
 Get KubeVirt API root paths
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3848,7 +3844,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.get_root_paths()
     pprint(api_response)
 except ApiException as e:
@@ -3880,7 +3876,7 @@ No authorization required
 
 dump profiler results endpoint
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3891,7 +3887,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.handle_dump_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->handle_dump_profiler: %s\n" % e)
@@ -3922,7 +3918,7 @@ No authorization required
 
 start profiler endpoint
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3933,7 +3929,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.handle_start_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->handle_start_profiler: %s\n" % e)
@@ -3964,7 +3960,7 @@ No authorization required
 
 stop profiler endpoint
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -3975,7 +3971,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.handle_stop_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->handle_stop_profiler: %s\n" % e)
@@ -4006,7 +4002,7 @@ No authorization required
 
 Get a list of all KubeVirt objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4025,7 +4021,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_kube_virt_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4067,7 +4063,7 @@ No authorization required
 
 Get a list of MigrationPolicy objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4086,7 +4082,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_migration_policy(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4128,7 +4124,7 @@ No authorization required
 
 Get a list of KubeVirt objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4148,7 +4144,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_kube_virt(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4191,7 +4187,7 @@ No authorization required
 
 Get a list of VirtualMachine objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4211,7 +4207,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4254,7 +4250,7 @@ No authorization required
 
 Get a list of VirtualMachineExport objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4274,7 +4270,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_export(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4317,7 +4313,7 @@ No authorization required
 
 Get a list of VirtualMachineInstance objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4337,7 +4333,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_instance(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4380,7 +4376,7 @@ No authorization required
 
 Get a list of VirtualMachineInstanceMigration objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4400,7 +4396,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_instance_migration(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4443,7 +4439,7 @@ No authorization required
 
 Get a list of VirtualMachineInstancePreset objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4463,7 +4459,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_instance_preset(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4506,7 +4502,7 @@ No authorization required
 
 Get a list of VirtualMachineInstanceReplicaSet objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4526,7 +4522,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_instance_replica_set(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4569,7 +4565,7 @@ No authorization required
 
 Get a list of VirtualMachineInstancetype objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4589,7 +4585,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_instancetype(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4626,13 +4622,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **list_namespaced_virtual_machine_pool**
-> V1beta1VirtualMachinePoolList list_namespaced_virtual_machine_pool(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
+> V1alpha1VirtualMachinePoolList list_namespaced_virtual_machine_pool(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
 
 
 
 Get a list of VirtualMachinePool objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4652,7 +4648,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_pool(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4675,7 +4671,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**V1beta1VirtualMachinePoolList**](V1beta1VirtualMachinePoolList.md)
+[**V1alpha1VirtualMachinePoolList**](V1alpha1VirtualMachinePoolList.md)
 
 ### Authorization
 
@@ -4695,7 +4691,7 @@ No authorization required
 
 Get a list of VirtualMachinePreference objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4715,7 +4711,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_preference(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4758,7 +4754,7 @@ No authorization required
 
 Get a list of VirtualMachineRestore objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4778,7 +4774,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_restore(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4821,7 +4817,7 @@ No authorization required
 
 Get a list of VirtualMachineSnapshot objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4841,7 +4837,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_snapshot(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4884,7 +4880,7 @@ No authorization required
 
 Get a list of VirtualMachineSnapshotContent objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4904,7 +4900,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_namespaced_virtual_machine_snapshot_content(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -4947,7 +4943,7 @@ No authorization required
 
 Get a list of VirtualMachineClone objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -4966,7 +4962,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_clone(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5008,7 +5004,7 @@ No authorization required
 
 Get a list of VirtualMachineClusterInstancetype objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5027,7 +5023,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_cluster_instancetype(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5069,7 +5065,7 @@ No authorization required
 
 Get a list of VirtualMachineClusterPreference objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5088,7 +5084,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_cluster_preference(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5130,7 +5126,7 @@ No authorization required
 
 Get a list of all VirtualMachineExport objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5149,7 +5145,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_export_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5191,7 +5187,7 @@ No authorization required
 
 Get a list of all VirtualMachine objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5210,7 +5206,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5252,7 +5248,7 @@ No authorization required
 
 Get a list of all VirtualMachineInstance objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5271,7 +5267,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_instance_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5313,7 +5309,7 @@ No authorization required
 
 Get a list of all VirtualMachineInstanceMigration objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5332,7 +5328,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_instance_migration_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5374,7 +5370,7 @@ No authorization required
 
 Get a list of all VirtualMachineInstancePreset objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5393,7 +5389,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_instance_preset_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5435,7 +5431,7 @@ No authorization required
 
 Get a list of all VirtualMachineInstanceReplicaSet objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5454,7 +5450,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_instance_replica_set_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5496,7 +5492,7 @@ No authorization required
 
 Get a list of all VirtualMachineInstancetype objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5515,7 +5511,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_instancetype_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5551,13 +5547,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **list_virtual_machine_pool_for_all_namespaces**
-> V1beta1VirtualMachinePoolList list_virtual_machine_pool_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
+> V1alpha1VirtualMachinePoolList list_virtual_machine_pool_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
 
 
 
 Get a list of all VirtualMachinePool objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5576,7 +5572,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_pool_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5598,7 +5594,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**V1beta1VirtualMachinePoolList**](V1beta1VirtualMachinePoolList.md)
+[**V1alpha1VirtualMachinePoolList**](V1alpha1VirtualMachinePoolList.md)
 
 ### Authorization
 
@@ -5618,7 +5614,7 @@ No authorization required
 
 Get a list of all VirtualMachinePreference objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5637,7 +5633,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_preference_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5679,7 +5675,7 @@ No authorization required
 
 Get a list of all VirtualMachineRestore objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5698,7 +5694,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_restore_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5740,7 +5736,7 @@ No authorization required
 
 Get a list of all VirtualMachineSnapshotContent objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5759,7 +5755,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_snapshot_content_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5801,7 +5797,7 @@ No authorization required
 
 Get a list of all VirtualMachineSnapshot objects.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5820,7 +5816,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.list_virtual_machine_snapshot_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -5862,7 +5858,7 @@ No authorization required
 
 Patch a MigrationPolicy object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5875,7 +5871,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_migration_policy(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -5911,7 +5907,7 @@ No authorization required
 
 Patch a KubeVirt object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5925,7 +5921,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_kube_virt(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -5962,7 +5958,7 @@ No authorization required
 
 Patch a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -5976,7 +5972,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6013,7 +6009,7 @@ No authorization required
 
 Patch a VirtualMachineExport object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6027,7 +6023,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_export(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6064,7 +6060,7 @@ No authorization required
 
 Patch a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6078,7 +6074,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_instance(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6115,7 +6111,7 @@ No authorization required
 
 Patch a VirtualMachineInstanceMigration object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6129,7 +6125,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_instance_migration(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6166,7 +6162,7 @@ No authorization required
 
 Patch a VirtualMachineInstancePreset object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6180,7 +6176,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_instance_preset(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6217,7 +6213,7 @@ No authorization required
 
 Patch a VirtualMachineInstanceReplicaSet object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6231,7 +6227,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_instance_replica_set(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6268,7 +6264,7 @@ No authorization required
 
 Patch a VirtualMachineInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6282,7 +6278,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_instancetype(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6313,13 +6309,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **patch_namespaced_virtual_machine_pool**
-> V1beta1VirtualMachinePool patch_namespaced_virtual_machine_pool(name, namespace, body)
+> V1alpha1VirtualMachinePool patch_namespaced_virtual_machine_pool(name, namespace, body)
 
 
 
 Patch a VirtualMachinePool object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6333,7 +6329,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_pool(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6350,7 +6346,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**V1beta1VirtualMachinePool**](V1beta1VirtualMachinePool.md)
+[**V1alpha1VirtualMachinePool**](V1alpha1VirtualMachinePool.md)
 
 ### Authorization
 
@@ -6370,7 +6366,7 @@ No authorization required
 
 Patch a VirtualMachinePreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6384,7 +6380,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_preference(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6421,7 +6417,7 @@ No authorization required
 
 Patch a VirtualMachineRestore object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6435,7 +6431,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_restore(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6472,7 +6468,7 @@ No authorization required
 
 Patch a VirtualMachineSnapshot object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6486,7 +6482,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_snapshot(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6523,7 +6519,7 @@ No authorization required
 
 Patch a VirtualMachineSnapshotContent object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6537,7 +6533,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_namespaced_virtual_machine_snapshot_content(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -6574,7 +6570,7 @@ No authorization required
 
 Patch a VirtualMachineClone object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6587,7 +6583,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_virtual_machine_clone(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -6623,7 +6619,7 @@ No authorization required
 
 Patch a VirtualMachineClusterInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6636,7 +6632,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_virtual_machine_cluster_instancetype(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -6672,7 +6668,7 @@ No authorization required
 
 Patch a VirtualMachineClusterPreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6685,7 +6681,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.K8sIoApimachineryPkgApisMetaV1Patch() # K8sIoApimachineryPkgApisMetaV1Patch | 
 
-try: 
+try:
     api_response = api_instance.patch_virtual_machine_cluster_preference(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -6721,7 +6717,7 @@ No authorization required
 
 Get a MigrationPolicy object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6735,7 +6731,7 @@ name = 'name_example' # str | Name of the resource
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_migration_policy(name, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -6772,7 +6768,7 @@ No authorization required
 
 Get a KubeVirt object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6787,7 +6783,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_kube_virt(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -6825,7 +6821,7 @@ No authorization required
 
 Get a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6840,7 +6836,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -6878,7 +6874,7 @@ No authorization required
 
 Get a VirtualMachineExport object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6893,7 +6889,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_export(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -6931,7 +6927,7 @@ No authorization required
 
 Get a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6946,7 +6942,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_instance(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -6984,7 +6980,7 @@ No authorization required
 
 Get a VirtualMachineInstanceMigration object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -6999,7 +6995,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_instance_migration(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7037,7 +7033,7 @@ No authorization required
 
 Get a VirtualMachineInstancePreset object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7052,7 +7048,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_instance_preset(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7090,7 +7086,7 @@ No authorization required
 
 Get a VirtualMachineInstanceReplicaSet object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7105,7 +7101,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_instance_replica_set(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7143,7 +7139,7 @@ No authorization required
 
 Get a VirtualMachineInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7158,7 +7154,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_instancetype(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7190,13 +7186,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **read_namespaced_virtual_machine_pool**
-> V1beta1VirtualMachinePool read_namespaced_virtual_machine_pool(name, namespace, exact=exact, export=export)
+> V1alpha1VirtualMachinePool read_namespaced_virtual_machine_pool(name, namespace, exact=exact, export=export)
 
 
 
 Get a VirtualMachinePool object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7211,7 +7207,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_pool(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7229,7 +7225,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**V1beta1VirtualMachinePool**](V1beta1VirtualMachinePool.md)
+[**V1alpha1VirtualMachinePool**](V1alpha1VirtualMachinePool.md)
 
 ### Authorization
 
@@ -7249,7 +7245,7 @@ No authorization required
 
 Get a VirtualMachinePreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7264,7 +7260,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_preference(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7302,7 +7298,7 @@ No authorization required
 
 Get a VirtualMachineRestore object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7317,7 +7313,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_restore(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7355,7 +7351,7 @@ No authorization required
 
 Get a VirtualMachineSnapshot object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7370,7 +7366,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_snapshot(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7408,7 +7404,7 @@ No authorization required
 
 Get a VirtualMachineSnapshotContent object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7423,7 +7419,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_namespaced_virtual_machine_snapshot_content(name, namespace, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7461,7 +7457,7 @@ No authorization required
 
 Get a VirtualMachineClone object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7475,7 +7471,7 @@ name = 'name_example' # str | Name of the resource
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_virtual_machine_clone(name, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7512,7 +7508,7 @@ No authorization required
 
 Get a VirtualMachineClusterInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7526,7 +7522,7 @@ name = 'name_example' # str | Name of the resource
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_virtual_machine_cluster_instancetype(name, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7563,7 +7559,7 @@ No authorization required
 
 Get a VirtualMachineClusterPreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7577,7 +7573,7 @@ name = 'name_example' # str | Name of the resource
 exact = true # bool | Should the export be exact. Exact export maintains cluster-specific fields like 'Namespace'. (optional)
 export = true # bool | Should this value be exported. Export strips fields that a user can not specify. (optional)
 
-try: 
+try:
     api_response = api_instance.read_virtual_machine_cluster_preference(name, exact=exact, export=export)
     pprint(api_response)
 except ApiException as e:
@@ -7614,7 +7610,7 @@ No authorization required
 
 Update a MigrationPolicy object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7627,7 +7623,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.V1alpha1MigrationPolicy() # V1alpha1MigrationPolicy | 
 
-try: 
+try:
     api_response = api_instance.replace_migration_policy(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -7663,7 +7659,7 @@ No authorization required
 
 Update a KubeVirt object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7677,7 +7673,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1KubeVirt() # V1KubeVirt | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_kube_virt(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -7714,7 +7710,7 @@ No authorization required
 
 Update a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7728,7 +7724,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1VirtualMachine() # V1VirtualMachine | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -7765,7 +7761,7 @@ No authorization required
 
 Update a VirtualMachineExport object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7779,7 +7775,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1beta1VirtualMachineExport() # V1beta1VirtualMachineExport | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_export(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -7816,7 +7812,7 @@ No authorization required
 
 Update a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7830,7 +7826,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1VirtualMachineInstance() # V1VirtualMachineInstance | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_instance(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -7867,7 +7863,7 @@ No authorization required
 
 Update a VirtualMachineInstanceMigration object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7881,7 +7877,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1VirtualMachineInstanceMigration() # V1VirtualMachineInstanceMigration | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_instance_migration(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -7918,7 +7914,7 @@ No authorization required
 
 Update a VirtualMachineInstancePreset object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7932,7 +7928,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1VirtualMachineInstancePreset() # V1VirtualMachineInstancePreset | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_instance_preset(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -7969,7 +7965,7 @@ No authorization required
 
 Update a VirtualMachineInstanceReplicaSet object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -7983,7 +7979,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1VirtualMachineInstanceReplicaSet() # V1VirtualMachineInstanceReplicaSet | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_instance_replica_set(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8020,7 +8016,7 @@ No authorization required
 
 Update a VirtualMachineInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8034,7 +8030,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1beta1VirtualMachineInstancetype() # V1beta1VirtualMachineInstancetype | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_instancetype(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8065,13 +8061,13 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **replace_namespaced_virtual_machine_pool**
-> V1beta1VirtualMachinePool replace_namespaced_virtual_machine_pool(name, namespace, body)
+> V1alpha1VirtualMachinePool replace_namespaced_virtual_machine_pool(name, namespace, body)
 
 
 
 Update a VirtualMachinePool object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8083,9 +8079,9 @@ from pprint import pprint
 api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
-body = kubevirt.V1beta1VirtualMachinePool() # V1beta1VirtualMachinePool | 
+body = kubevirt.V1alpha1VirtualMachinePool() # V1alpha1VirtualMachinePool | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_pool(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8098,11 +8094,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **str**| Name of the resource | 
  **namespace** | **str**| Object name and auth scope, such as for teams and projects | 
- **body** | [**V1beta1VirtualMachinePool**](V1beta1VirtualMachinePool.md)|  | 
+ **body** | [**V1alpha1VirtualMachinePool**](V1alpha1VirtualMachinePool.md)|  | 
 
 ### Return type
 
-[**V1beta1VirtualMachinePool**](V1beta1VirtualMachinePool.md)
+[**V1alpha1VirtualMachinePool**](V1alpha1VirtualMachinePool.md)
 
 ### Authorization
 
@@ -8122,7 +8118,7 @@ No authorization required
 
 Update a VirtualMachinePreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8136,7 +8132,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1beta1VirtualMachinePreference() # V1beta1VirtualMachinePreference | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_preference(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8173,7 +8169,7 @@ No authorization required
 
 Update a VirtualMachineRestore object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8187,7 +8183,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1beta1VirtualMachineRestore() # V1beta1VirtualMachineRestore | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_restore(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8224,7 +8220,7 @@ No authorization required
 
 Update a VirtualMachineSnapshot object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8238,7 +8234,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1beta1VirtualMachineSnapshot() # V1beta1VirtualMachineSnapshot | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_snapshot(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8275,7 +8271,7 @@ No authorization required
 
 Update a VirtualMachineSnapshotContent object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8289,7 +8285,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1beta1VirtualMachineSnapshotContent() # V1beta1VirtualMachineSnapshotContent | 
 
-try: 
+try:
     api_response = api_instance.replace_namespaced_virtual_machine_snapshot_content(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8326,7 +8322,7 @@ No authorization required
 
 Update a VirtualMachineClone object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8339,7 +8335,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.V1beta1VirtualMachineClone() # V1beta1VirtualMachineClone | 
 
-try: 
+try:
     api_response = api_instance.replace_virtual_machine_clone(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -8375,7 +8371,7 @@ No authorization required
 
 Update a VirtualMachineClusterInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8388,7 +8384,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.V1beta1VirtualMachineClusterInstancetype() # V1beta1VirtualMachineClusterInstancetype | 
 
-try: 
+try:
     api_response = api_instance.replace_virtual_machine_cluster_instancetype(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -8424,7 +8420,7 @@ No authorization required
 
 Update a VirtualMachineClusterPreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8437,7 +8433,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 body = kubevirt.V1beta1VirtualMachineClusterPreference() # V1beta1VirtualMachineClusterPreference | 
 
-try: 
+try:
     api_response = api_instance.replace_virtual_machine_cluster_preference(name, body)
     pprint(api_response)
 except ApiException as e:
@@ -8473,7 +8469,7 @@ No authorization required
 
 Health endpoint
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8484,7 +8480,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.v1_check_health()
     pprint(api_response)
 except ApiException as e:
@@ -8516,7 +8512,7 @@ No authorization required
 
 Open a websocket connection to a serial console on the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8529,7 +8525,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_instance.v1_console(name, namespace)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1_console: %s\n" % e)
@@ -8564,7 +8560,7 @@ No authorization required
 
 Expands instancetype and preference into the passed VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8576,7 +8572,7 @@ from pprint import pprint
 api_instance = kubevirt.DefaultApi()
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_expand_spec(namespace)
     pprint(api_response)
 except ApiException as e:
@@ -8611,7 +8607,7 @@ No authorization required
 
 Get list of active filesystems on guest machine via guest agent
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8624,7 +8620,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_filesystemlist(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -8660,7 +8656,7 @@ No authorization required
 
 Freeze a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8674,7 +8670,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1FreezeUnfreezeTimeout() # V1FreezeUnfreezeTimeout | 
 
-try: 
+try:
     api_response = api_instance.v1_freeze(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8711,7 +8707,7 @@ No authorization required
 
 Get a KubeVirt API Group
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8722,7 +8718,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.v1_get_sub_api_group()
     pprint(api_response)
 except ApiException as e:
@@ -8752,7 +8748,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8763,7 +8759,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.v1_guestfs()
     pprint(api_response)
 except ApiException as e:
@@ -8795,7 +8791,7 @@ No authorization required
 
 Get guest agent os information
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8808,7 +8804,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_guestosinfo(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -8844,7 +8840,7 @@ No authorization required
 
 Dumps a VirtualMachineInstance memory.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8858,7 +8854,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1VirtualMachineMemoryDumpRequest() # V1VirtualMachineMemoryDumpRequest | 
 
-try: 
+try:
     api_response = api_instance.v1_memory_dump(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8895,7 +8891,7 @@ No authorization required
 
 Migrate a running VirtualMachine to another node.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8909,7 +8905,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1MigrateOptions() # V1MigrateOptions | 
 
-try: 
+try:
     api_response = api_instance.v1_migrate(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8946,7 +8942,7 @@ No authorization required
 
 Pause a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -8960,7 +8956,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1PauseOptions() # V1PauseOptions | 
 
-try: 
+try:
     api_response = api_instance.v1_pause(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -8997,7 +8993,7 @@ No authorization required
 
 Remove memory dump association.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9010,7 +9006,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_remove_memory_dump(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9046,7 +9042,7 @@ No authorization required
 
 Reset a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9059,7 +9055,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_reset(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9095,7 +9091,7 @@ No authorization required
 
 Restart a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9109,7 +9105,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1RestartOptions() # V1RestartOptions |  (optional)
 
-try: 
+try:
     api_response = api_instance.v1_restart(name, namespace, body=body)
     pprint(api_response)
 except ApiException as e:
@@ -9146,7 +9142,7 @@ No authorization required
 
 Fetch SEV certificate chain from the node where Virtual Machine is scheduled
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9159,7 +9155,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_sev_fetch_cert_chain(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9195,7 +9191,7 @@ No authorization required
 
 Inject SEV launch secret into a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9209,7 +9205,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1SEVSecretOptions() # V1SEVSecretOptions | 
 
-try: 
+try:
     api_response = api_instance.v1_sev_inject_launch_secret(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -9246,7 +9242,7 @@ No authorization required
 
 Query SEV launch measurement from a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9259,7 +9255,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_sev_query_launch_measurement(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9295,7 +9291,7 @@ No authorization required
 
 Setup SEV session parameters for a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9309,7 +9305,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1SEVSessionOptions() # V1SEVSessionOptions | 
 
-try: 
+try:
     api_response = api_instance.v1_sev_setup_session(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -9346,7 +9342,7 @@ No authorization required
 
 Soft reboot a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9359,7 +9355,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_soft_reboot(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9395,7 +9391,7 @@ No authorization required
 
 Start a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9409,7 +9405,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1StartOptions() # V1StartOptions | 
 
-try: 
+try:
     api_response = api_instance.v1_start(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -9446,7 +9442,7 @@ No authorization required
 
 Stop a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9460,7 +9456,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1StopOptions() # V1StopOptions |  (optional)
 
-try: 
+try:
     api_response = api_instance.v1_stop(name, namespace, body=body)
     pprint(api_response)
 except ApiException as e:
@@ -9497,7 +9493,7 @@ No authorization required
 
 Unfreeze a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9510,7 +9506,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_unfreeze(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9546,7 +9542,7 @@ No authorization required
 
 Unpause a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9560,7 +9556,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1UnpauseOptions() # V1UnpauseOptions | 
 
-try: 
+try:
     api_response = api_instance.v1_unpause(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -9597,7 +9593,7 @@ No authorization required
 
 Get list of active users via guest agent
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9610,7 +9606,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1_userlist(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9644,7 +9640,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9655,7 +9651,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1_version()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1_version: %s\n" % e)
@@ -9686,7 +9682,7 @@ No authorization required
 
 Open a websocket connection to connect to VNC on the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9700,7 +9696,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 preserve_session = true # bool | Connect only if ongoing session is not disturbed. (optional)
 
-try: 
+try:
     api_instance.v1_vnc(name, namespace, preserve_session=preserve_session)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1_vnc: %s\n" % e)
@@ -9736,7 +9732,7 @@ No authorization required
 
 Get a PNG VNC screenshot of the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9750,7 +9746,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 move_cursor = true # bool | Move the cursor on the VNC display to wake up the screen (optional)
 
-try: 
+try:
     api_instance.v1_vnc_screenshot(name, namespace, move_cursor=move_cursor)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1_vnc_screenshot: %s\n" % e)
@@ -9786,7 +9782,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic to the specified VirtualMachineInstance and port via VSOCK.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9801,7 +9797,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 port = 56 # int | The port which the VSOCK application listens to.
 tls = true # bool | Weather to request a TLS encrypted session from the VSOCK application. (optional)
 
-try: 
+try:
     api_instance.v1_vsock(name, namespace, port, tls=tls)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1_vsock: %s\n" % e)
@@ -9838,7 +9834,7 @@ No authorization required
 
 Health endpoint
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9849,7 +9845,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.v1alpha3_check_health()
     pprint(api_response)
 except ApiException as e:
@@ -9881,7 +9877,7 @@ No authorization required
 
 Open a websocket connection to a serial console on the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9894,7 +9890,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_instance.v1alpha3_console(name, namespace)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3_console: %s\n" % e)
@@ -9929,7 +9925,7 @@ No authorization required
 
 Expands instancetype and preference into the passed VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9941,7 +9937,7 @@ from pprint import pprint
 api_instance = kubevirt.DefaultApi()
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_expand_spec(namespace)
     pprint(api_response)
 except ApiException as e:
@@ -9976,7 +9972,7 @@ No authorization required
 
 Get list of active filesystems on guest machine via guest agent
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -9989,7 +9985,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_filesystemlist(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10025,7 +10021,7 @@ No authorization required
 
 Freeze a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10039,7 +10035,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1FreezeUnfreezeTimeout() # V1FreezeUnfreezeTimeout | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_freeze(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10074,7 +10070,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10085,7 +10081,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.v1alpha3_guestfs()
     pprint(api_response)
 except ApiException as e:
@@ -10117,7 +10113,7 @@ No authorization required
 
 Get guest agent os information
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10130,7 +10126,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_guestosinfo(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10166,7 +10162,7 @@ No authorization required
 
 Dumps a VirtualMachineInstance memory.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10180,7 +10176,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1VirtualMachineMemoryDumpRequest() # V1VirtualMachineMemoryDumpRequest | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_memory_dump(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10217,7 +10213,7 @@ No authorization required
 
 Migrate a running VirtualMachine to another node.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10231,7 +10227,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1MigrateOptions() # V1MigrateOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_migrate(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10268,7 +10264,7 @@ No authorization required
 
 Pause a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10282,7 +10278,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1PauseOptions() # V1PauseOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_pause(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10319,7 +10315,7 @@ No authorization required
 
 Remove memory dump association.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10332,7 +10328,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_remove_memory_dump(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10368,7 +10364,7 @@ No authorization required
 
 Reset a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10381,7 +10377,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_reset(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10417,7 +10413,7 @@ No authorization required
 
 Restart a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10431,7 +10427,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1RestartOptions() # V1RestartOptions |  (optional)
 
-try: 
+try:
     api_response = api_instance.v1alpha3_restart(name, namespace, body=body)
     pprint(api_response)
 except ApiException as e:
@@ -10468,7 +10464,7 @@ No authorization required
 
 Fetch SEV certificate chain from the node where Virtual Machine is scheduled
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10481,7 +10477,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_sev_fetch_cert_chain(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10517,7 +10513,7 @@ No authorization required
 
 Inject SEV launch secret into a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10531,7 +10527,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1SEVSecretOptions() # V1SEVSecretOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_sev_inject_launch_secret(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10568,7 +10564,7 @@ No authorization required
 
 Query SEV launch measurement from a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10581,7 +10577,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_sev_query_launch_measurement(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10617,7 +10613,7 @@ No authorization required
 
 Setup SEV session parameters for a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10631,7 +10627,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1SEVSessionOptions() # V1SEVSessionOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_sev_setup_session(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10668,7 +10664,7 @@ No authorization required
 
 Soft reboot a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10681,7 +10677,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_soft_reboot(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10717,7 +10713,7 @@ No authorization required
 
 Start a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10731,7 +10727,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1StartOptions() # V1StartOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_start(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10768,7 +10764,7 @@ No authorization required
 
 Stop a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10782,7 +10778,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1StopOptions() # V1StopOptions |  (optional)
 
-try: 
+try:
     api_response = api_instance.v1alpha3_stop(name, namespace, body=body)
     pprint(api_response)
 except ApiException as e:
@@ -10819,7 +10815,7 @@ No authorization required
 
 Unfreeze a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10832,7 +10828,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_unfreeze(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10868,7 +10864,7 @@ No authorization required
 
 Unpause a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10882,7 +10878,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1UnpauseOptions() # V1UnpauseOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3_unpause(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -10919,7 +10915,7 @@ No authorization required
 
 Get list of active users via guest agent
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10932,7 +10928,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3_userlist(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -10966,7 +10962,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -10977,7 +10973,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1alpha3_version()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3_version: %s\n" % e)
@@ -11008,7 +11004,7 @@ No authorization required
 
 Open a websocket connection to connect to VNC on the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11022,7 +11018,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 preserve_session = true # bool | Connect only if ongoing session is not disturbed. (optional)
 
-try: 
+try:
     api_instance.v1alpha3_vnc(name, namespace, preserve_session=preserve_session)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3_vnc: %s\n" % e)
@@ -11058,7 +11054,7 @@ No authorization required
 
 Get a PNG VNC screenshot of the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11072,7 +11068,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 move_cursor = true # bool | Move the cursor on the VNC display to wake up the screen (optional)
 
-try: 
+try:
     api_instance.v1alpha3_vnc_screenshot(name, namespace, move_cursor=move_cursor)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3_vnc_screenshot: %s\n" % e)
@@ -11108,7 +11104,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic to the specified VirtualMachineInstance and port via VSOCK.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11123,7 +11119,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 port = 56 # int | The port which the VSOCK application listens to.
 tls = true # bool | Weather to request a TLS encrypted session from the VSOCK application. (optional)
 
-try: 
+try:
     api_instance.v1alpha3_vsock(name, namespace, port, tls=tls)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3_vsock: %s\n" % e)
@@ -11158,7 +11154,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11169,7 +11165,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1alpha3dump_cluster_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3dump_cluster_profiler: %s\n" % e)
@@ -11200,7 +11196,7 @@ No authorization required
 
 Get a KubeVirt API resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11211,7 +11207,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.v1alpha3get_api_sub_resources()
     pprint(api_response)
 except ApiException as e:
@@ -11241,7 +11237,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11252,7 +11248,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1alpha3start_cluster_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3start_cluster_profiler: %s\n" % e)
@@ -11281,7 +11277,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11292,7 +11288,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1alpha3stop_cluster_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3stop_cluster_profiler: %s\n" % e)
@@ -11323,7 +11319,7 @@ No authorization required
 
 Open a websocket connection to connect to USB device on the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11336,7 +11332,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_instance.v1alpha3usbredir(name, namespace)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3usbredir: %s\n" % e)
@@ -11371,7 +11367,7 @@ No authorization required
 
 Add a volume and disk to a running Virtual Machine.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11385,7 +11381,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1AddVolumeOptions() # V1AddVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3vm_addvolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -11415,57 +11411,6 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **v1alpha3vm_evacuatecancel**
-> str v1alpha3vm_evacuatecancel(name, namespace, body)
-
-
-
-Cancel evacuation Virtual Machine
-
-### Example 
-```python
-from __future__ import print_function
-import time
-import kubevirt
-from kubevirt.rest import ApiException
-from pprint import pprint
-
-# create an instance of the API class
-api_instance = kubevirt.DefaultApi()
-name = 'name_example' # str | Name of the resource
-namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
-body = kubevirt.V1EvacuateCancelOptions() # V1EvacuateCancelOptions | 
-
-try: 
-    api_response = api_instance.v1alpha3vm_evacuatecancel(name, namespace, body)
-    pprint(api_response)
-except ApiException as e:
-    print("Exception when calling DefaultApi->v1alpha3vm_evacuatecancel: %s\n" % e)
-```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **name** | **str**| Name of the resource | 
- **namespace** | **str**| Object name and auth scope, such as for teams and projects | 
- **body** | [**V1EvacuateCancelOptions**](V1EvacuateCancelOptions.md)|  | 
-
-### Return type
-
-**str**
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
- - **Content-Type**: */*
- - **Accept**: Not defined
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 # **v1alpha3vm_expand_spec**
 > str v1alpha3vm_expand_spec(name, namespace)
 
@@ -11473,7 +11418,7 @@ No authorization required
 
 Get VirtualMachine object with expanded instancetype and preference.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11486,7 +11431,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1alpha3vm_expand_spec(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -11522,7 +11467,7 @@ No authorization required
 
 Get graph of objects related to a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11536,7 +11481,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1ObjectGraphOptions() # V1ObjectGraphOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3vm_objectgraph(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -11573,7 +11518,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic to the running VMI for the specified VirtualMachine and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11587,7 +11532,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1alpha3vm_port_forward(name, namespace, port)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3vm_port_forward: %s\n" % e)
@@ -11623,7 +11568,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic of the specified protocol (either tcp or udp) to the specified VirtualMachine and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11638,7 +11583,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 protocol = 'protocol_example' # str | The protocol for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1alpha3vm_port_forward_with_protocol(name, namespace, port, protocol)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3vm_port_forward_with_protocol: %s\n" % e)
@@ -11675,7 +11620,7 @@ No authorization required
 
 Removes a volume and disk from a running Virtual Machine.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11689,7 +11634,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1RemoveVolumeOptions() # V1RemoveVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3vm_removevolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -11726,7 +11671,7 @@ No authorization required
 
 Add a volume and disk to a running Virtual Machine Instance
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11740,7 +11685,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1AddVolumeOptions() # V1AddVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3vmi_addvolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -11770,57 +11715,6 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **v1alpha3vmi_evacuatecancel**
-> str v1alpha3vmi_evacuatecancel(name, namespace, body)
-
-
-
-Cancel evacuation Virtual Machine Instance
-
-### Example 
-```python
-from __future__ import print_function
-import time
-import kubevirt
-from kubevirt.rest import ApiException
-from pprint import pprint
-
-# create an instance of the API class
-api_instance = kubevirt.DefaultApi()
-name = 'name_example' # str | Name of the resource
-namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
-body = kubevirt.V1EvacuateCancelOptions() # V1EvacuateCancelOptions | 
-
-try: 
-    api_response = api_instance.v1alpha3vmi_evacuatecancel(name, namespace, body)
-    pprint(api_response)
-except ApiException as e:
-    print("Exception when calling DefaultApi->v1alpha3vmi_evacuatecancel: %s\n" % e)
-```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **name** | **str**| Name of the resource | 
- **namespace** | **str**| Object name and auth scope, such as for teams and projects | 
- **body** | [**V1EvacuateCancelOptions**](V1EvacuateCancelOptions.md)|  | 
-
-### Return type
-
-**str**
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
- - **Content-Type**: */*
- - **Accept**: Not defined
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 # **v1alpha3vmi_objectgraph**
 > V1ObjectGraphNode v1alpha3vmi_objectgraph(name, namespace, body)
 
@@ -11828,7 +11722,7 @@ No authorization required
 
 Get graph of objects related to a Virtual Machine Instance
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11842,7 +11736,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1ObjectGraphOptions() # V1ObjectGraphOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3vmi_objectgraph(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -11879,7 +11773,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic to the specified VirtualMachineInstance and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11893,7 +11787,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1alpha3vmi_port_forward(name, namespace, port)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3vmi_port_forward: %s\n" % e)
@@ -11929,7 +11823,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic of the specified protocol (either tcp or udp) to the specified VirtualMachineInstance and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11944,7 +11838,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 protocol = 'protocol_example' # str | The protocol for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1alpha3vmi_port_forward_with_protocol(name, namespace, port, protocol)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1alpha3vmi_port_forward_with_protocol: %s\n" % e)
@@ -11981,7 +11875,7 @@ No authorization required
 
 Removes a volume and disk from a running Virtual Machine Instance
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -11995,7 +11889,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1RemoveVolumeOptions() # V1RemoveVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1alpha3vmi_removevolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -12030,7 +11924,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12041,7 +11935,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1dump_cluster_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1dump_cluster_profiler: %s\n" % e)
@@ -12072,7 +11966,7 @@ No authorization required
 
 Get a KubeVirt API resources
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12083,7 +11977,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_response = api_instance.v1get_api_sub_resources()
     pprint(api_response)
 except ApiException as e:
@@ -12113,7 +12007,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12124,7 +12018,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1start_cluster_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1start_cluster_profiler: %s\n" % e)
@@ -12153,7 +12047,7 @@ No authorization required
 
 
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12164,7 +12058,7 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = kubevirt.DefaultApi()
 
-try: 
+try:
     api_instance.v1stop_cluster_profiler()
 except ApiException as e:
     print("Exception when calling DefaultApi->v1stop_cluster_profiler: %s\n" % e)
@@ -12195,7 +12089,7 @@ No authorization required
 
 Open a websocket connection to connect to USB device on the specified VirtualMachineInstance.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12208,7 +12102,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_instance.v1usbredir(name, namespace)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1usbredir: %s\n" % e)
@@ -12243,7 +12137,7 @@ No authorization required
 
 Add a volume and disk to a running Virtual Machine.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12257,7 +12151,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1AddVolumeOptions() # V1AddVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1vm_addvolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -12287,57 +12181,6 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **v1vm_evacuatecancel**
-> str v1vm_evacuatecancel(name, namespace, body)
-
-
-
-Cancel evacuation Virtual Machine
-
-### Example 
-```python
-from __future__ import print_function
-import time
-import kubevirt
-from kubevirt.rest import ApiException
-from pprint import pprint
-
-# create an instance of the API class
-api_instance = kubevirt.DefaultApi()
-name = 'name_example' # str | Name of the resource
-namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
-body = kubevirt.V1EvacuateCancelOptions() # V1EvacuateCancelOptions | 
-
-try: 
-    api_response = api_instance.v1vm_evacuatecancel(name, namespace, body)
-    pprint(api_response)
-except ApiException as e:
-    print("Exception when calling DefaultApi->v1vm_evacuatecancel: %s\n" % e)
-```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **name** | **str**| Name of the resource | 
- **namespace** | **str**| Object name and auth scope, such as for teams and projects | 
- **body** | [**V1EvacuateCancelOptions**](V1EvacuateCancelOptions.md)|  | 
-
-### Return type
-
-**str**
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
- - **Content-Type**: */*
- - **Accept**: Not defined
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 # **v1vm_expand_spec**
 > str v1vm_expand_spec(name, namespace)
 
@@ -12345,7 +12188,7 @@ No authorization required
 
 Get VirtualMachine object with expanded instancetype and preference.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12358,7 +12201,7 @@ api_instance = kubevirt.DefaultApi()
 name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 
-try: 
+try:
     api_response = api_instance.v1vm_expand_spec(name, namespace)
     pprint(api_response)
 except ApiException as e:
@@ -12394,7 +12237,7 @@ No authorization required
 
 Get graph of objects related to a Virtual Machine
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12408,7 +12251,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1ObjectGraphOptions() # V1ObjectGraphOptions | 
 
-try: 
+try:
     api_response = api_instance.v1vm_objectgraph(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -12445,7 +12288,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic to the running VMI for the specified VirtualMachine and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12459,7 +12302,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1vm_port_forward(name, namespace, port)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1vm_port_forward: %s\n" % e)
@@ -12495,7 +12338,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic of the specified protocol (either tcp or udp) to the specified VirtualMachine and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12510,7 +12353,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 protocol = 'protocol_example' # str | The protocol for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1vm_port_forward_with_protocol(name, namespace, port, protocol)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1vm_port_forward_with_protocol: %s\n" % e)
@@ -12547,7 +12390,7 @@ No authorization required
 
 Removes a volume and disk from a running Virtual Machine.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12561,7 +12404,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1RemoveVolumeOptions() # V1RemoveVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1vm_removevolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -12598,7 +12441,7 @@ No authorization required
 
 Add a volume and disk to a running Virtual Machine Instance
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12612,7 +12455,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1AddVolumeOptions() # V1AddVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1vmi_addvolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -12642,57 +12485,6 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **v1vmi_evacuatecancel**
-> str v1vmi_evacuatecancel(name, namespace, body)
-
-
-
-Cancel evacuation Virtual Machine Instance
-
-### Example 
-```python
-from __future__ import print_function
-import time
-import kubevirt
-from kubevirt.rest import ApiException
-from pprint import pprint
-
-# create an instance of the API class
-api_instance = kubevirt.DefaultApi()
-name = 'name_example' # str | Name of the resource
-namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
-body = kubevirt.V1EvacuateCancelOptions() # V1EvacuateCancelOptions | 
-
-try: 
-    api_response = api_instance.v1vmi_evacuatecancel(name, namespace, body)
-    pprint(api_response)
-except ApiException as e:
-    print("Exception when calling DefaultApi->v1vmi_evacuatecancel: %s\n" % e)
-```
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **name** | **str**| Name of the resource | 
- **namespace** | **str**| Object name and auth scope, such as for teams and projects | 
- **body** | [**V1EvacuateCancelOptions**](V1EvacuateCancelOptions.md)|  | 
-
-### Return type
-
-**str**
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
- - **Content-Type**: */*
- - **Accept**: Not defined
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 # **v1vmi_objectgraph**
 > V1ObjectGraphNode v1vmi_objectgraph(name, namespace, body)
 
@@ -12700,7 +12492,7 @@ No authorization required
 
 Get graph of objects related to a Virtual Machine Instance
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12714,7 +12506,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1ObjectGraphOptions() # V1ObjectGraphOptions | 
 
-try: 
+try:
     api_response = api_instance.v1vmi_objectgraph(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -12751,7 +12543,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic to the specified VirtualMachineInstance and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12765,7 +12557,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1vmi_port_forward(name, namespace, port)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1vmi_port_forward: %s\n" % e)
@@ -12801,7 +12593,7 @@ No authorization required
 
 Open a websocket connection forwarding traffic of the specified protocol (either tcp or udp) to the specified VirtualMachineInstance and port.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12816,7 +12608,7 @@ namespace = 'namespace_example' # str | Object name and auth scope, such as for 
 port = 'port_example' # str | The target port for portforward on the VirtualMachineInstance.
 protocol = 'protocol_example' # str | The protocol for portforward on the VirtualMachineInstance.
 
-try: 
+try:
     api_instance.v1vmi_port_forward_with_protocol(name, namespace, port, protocol)
 except ApiException as e:
     print("Exception when calling DefaultApi->v1vmi_port_forward_with_protocol: %s\n" % e)
@@ -12853,7 +12645,7 @@ No authorization required
 
 Removes a volume and disk from a running Virtual Machine Instance
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12867,7 +12659,7 @@ name = 'name_example' # str | Name of the resource
 namespace = 'namespace_example' # str | Object name and auth scope, such as for teams and projects
 body = kubevirt.V1RemoveVolumeOptions() # V1RemoveVolumeOptions | 
 
-try: 
+try:
     api_response = api_instance.v1vmi_removevolume(name, namespace, body)
     pprint(api_response)
 except ApiException as e:
@@ -12904,7 +12696,7 @@ No authorization required
 
 Watch a KubeVirtList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12923,7 +12715,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_kube_virt_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -12965,7 +12757,7 @@ No authorization required
 
 Watch a MigrationPolicyList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -12984,7 +12776,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_migration_policy_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13026,7 +12818,7 @@ No authorization required
 
 Watch a KubeVirt object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13046,7 +12838,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_kube_virt(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13089,7 +12881,7 @@ No authorization required
 
 Watch a VirtualMachine object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13109,7 +12901,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13152,7 +12944,7 @@ No authorization required
 
 Watch a VirtualMachineExport object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13172,7 +12964,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_export(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13215,7 +13007,7 @@ No authorization required
 
 Watch a VirtualMachineInstance object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13235,7 +13027,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_instance(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13278,7 +13070,7 @@ No authorization required
 
 Watch a VirtualMachineInstanceMigration object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13298,7 +13090,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_instance_migration(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13341,7 +13133,7 @@ No authorization required
 
 Watch a VirtualMachineInstancePreset object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13361,7 +13153,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_instance_preset(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13404,7 +13196,7 @@ No authorization required
 
 Watch a VirtualMachineInstanceReplicaSet object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13424,7 +13216,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_instance_replica_set(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13467,7 +13259,7 @@ No authorization required
 
 Watch a VirtualMachineInstancetype object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13487,7 +13279,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_instancetype(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13530,7 +13322,7 @@ No authorization required
 
 Watch a VirtualMachinePool object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13550,7 +13342,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_pool(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13593,7 +13385,7 @@ No authorization required
 
 Watch a VirtualMachinePreference object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13613,7 +13405,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_preference(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13656,7 +13448,7 @@ No authorization required
 
 Watch a VirtualMachineRestore object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13676,7 +13468,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_restore(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13719,7 +13511,7 @@ No authorization required
 
 Watch a VirtualMachineSnapshot object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13739,7 +13531,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_snapshot(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13782,7 +13574,7 @@ No authorization required
 
 Watch a VirtualMachineSnapshotContent object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13802,7 +13594,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_namespaced_virtual_machine_snapshot_content(namespace, _continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13845,7 +13637,7 @@ No authorization required
 
 Watch a VirtualMachineCloneList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13864,7 +13656,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_clone_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13906,7 +13698,7 @@ No authorization required
 
 Watch a VirtualMachineClusterInstancetypeList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13925,7 +13717,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_cluster_instancetype_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -13967,7 +13759,7 @@ No authorization required
 
 Watch a VirtualMachineClusterPreferenceList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -13986,7 +13778,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_cluster_preference_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14028,7 +13820,7 @@ No authorization required
 
 Watch a VirtualMachineExportList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14047,7 +13839,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_export_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14089,7 +13881,7 @@ No authorization required
 
 Watch a VirtualMachineInstanceList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14108,7 +13900,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_instance_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14150,7 +13942,7 @@ No authorization required
 
 Watch a VirtualMachineInstanceMigrationList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14169,7 +13961,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_instance_migration_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14211,7 +14003,7 @@ No authorization required
 
 Watch a VirtualMachineInstancePresetList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14230,7 +14022,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_instance_preset_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14272,7 +14064,7 @@ No authorization required
 
 Watch a VirtualMachineInstanceReplicaSetList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14291,7 +14083,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_instance_replica_set_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14333,7 +14125,7 @@ No authorization required
 
 Watch a VirtualMachineInstancetypeList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14352,7 +14144,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_instancetype_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14394,7 +14186,7 @@ No authorization required
 
 Watch a VirtualMachineList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14413,7 +14205,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14455,7 +14247,7 @@ No authorization required
 
 Watch a VirtualMachinePoolList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14474,7 +14266,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_pool_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14516,7 +14308,7 @@ No authorization required
 
 Watch a VirtualMachinePreferenceList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14535,7 +14327,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_preference_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14577,7 +14369,7 @@ No authorization required
 
 Watch a VirtualMachineRestoreList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14596,7 +14388,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_restore_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14638,7 +14430,7 @@ No authorization required
 
 Watch a VirtualMachineSnapshotContentList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14657,7 +14449,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_snapshot_content_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:
@@ -14699,7 +14491,7 @@ No authorization required
 
 Watch a VirtualMachineSnapshotList object.
 
-### Example 
+### Example
 ```python
 from __future__ import print_function
 import time
@@ -14718,7 +14510,7 @@ resource_version = 'resource_version_example' # str | When specified with a watc
 timeout_seconds = 56 # int | TimeoutSeconds for the list/watch call. (optional)
 watch = true # bool | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. (optional)
 
-try: 
+try:
     api_response = api_instance.watch_virtual_machine_snapshot_list_for_all_namespaces(_continue=_continue, field_selector=field_selector, include_uninitialized=include_uninitialized, label_selector=label_selector, limit=limit, resource_version=resource_version, timeout_seconds=timeout_seconds, watch=watch)
     pprint(api_response)
 except ApiException as e:

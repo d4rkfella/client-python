@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_interface_bridge import V1InterfaceBridge  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_interface_bridge import V1InterfaceBridge
 
 
 class TestV1InterfaceBridge(unittest.TestCase):
-    """ V1InterfaceBridge unit test stubs """
+    """V1InterfaceBridge unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1InterfaceBridge(unittest.TestCase):
         pass
 
     def testV1InterfaceBridge(self):
-        """
-        Test V1InterfaceBridge
-        """
+        """Test V1InterfaceBridge"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_interface_bridge.V1InterfaceBridge()
+        # model = kubevirt.models.v1_interface_bridge.V1InterfaceBridge()  # noqa: E501
         pass
 
 

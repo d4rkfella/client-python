@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1alpha1_migration_policy_status import V1alpha1MigrationPolicyStatus  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1alpha1_migration_policy_status import V1alpha1MigrationPolicyStatus
 
 
 class TestV1alpha1MigrationPolicyStatus(unittest.TestCase):
-    """ V1alpha1MigrationPolicyStatus unit test stubs """
+    """V1alpha1MigrationPolicyStatus unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1alpha1MigrationPolicyStatus(unittest.TestCase):
         pass
 
     def testV1alpha1MigrationPolicyStatus(self):
-        """
-        Test V1alpha1MigrationPolicyStatus
-        """
+        """Test V1alpha1MigrationPolicyStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1alpha1_migration_policy_status.V1alpha1MigrationPolicyStatus()
+        # model = kubevirt.models.v1alpha1_migration_policy_status.V1alpha1MigrationPolicyStatus()  # noqa: E501
         pass
 
 

@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.k8s_io_apimachinery_pkg_util_intstr_int_or_string import K8sIoApimachineryPkgUtilIntstrIntOrString  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.k8s_io_apimachinery_pkg_util_intstr_int_or_string import K8sIoApimachineryPkgUtilIntstrIntOrString
 
 
 class TestK8sIoApimachineryPkgUtilIntstrIntOrString(unittest.TestCase):
-    """ K8sIoApimachineryPkgUtilIntstrIntOrString unit test stubs """
+    """K8sIoApimachineryPkgUtilIntstrIntOrString unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestK8sIoApimachineryPkgUtilIntstrIntOrString(unittest.TestCase):
         pass
 
     def testK8sIoApimachineryPkgUtilIntstrIntOrString(self):
-        """
-        Test K8sIoApimachineryPkgUtilIntstrIntOrString
-        """
+        """Test K8sIoApimachineryPkgUtilIntstrIntOrString"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.k8s_io_apimachinery_pkg_util_intstr_int_or_string.K8sIoApimachineryPkgUtilIntstrIntOrString()
+        # model = kubevirt.models.k8s_io_apimachinery_pkg_util_intstr_int_or_string.K8sIoApimachineryPkgUtilIntstrIntOrString()  # noqa: E501
         pass
 
 

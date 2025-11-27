@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_token_bucket_rate_limiter import V1TokenBucketRateLimiter  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_token_bucket_rate_limiter import V1TokenBucketRateLimiter
 
 
 class TestV1TokenBucketRateLimiter(unittest.TestCase):
-    """ V1TokenBucketRateLimiter unit test stubs """
+    """V1TokenBucketRateLimiter unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1TokenBucketRateLimiter(unittest.TestCase):
         pass
 
     def testV1TokenBucketRateLimiter(self):
-        """
-        Test V1TokenBucketRateLimiter
-        """
+        """Test V1TokenBucketRateLimiter"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_token_bucket_rate_limiter.V1TokenBucketRateLimiter()
+        # model = kubevirt.models.v1_token_bucket_rate_limiter.V1TokenBucketRateLimiter()  # noqa: E501
         pass
 
 

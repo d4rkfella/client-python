@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_object_graph_node import V1ObjectGraphNode  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_object_graph_node import V1ObjectGraphNode
 
 
 class TestV1ObjectGraphNode(unittest.TestCase):
-    """ V1ObjectGraphNode unit test stubs """
+    """V1ObjectGraphNode unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1ObjectGraphNode(unittest.TestCase):
         pass
 
     def testV1ObjectGraphNode(self):
-        """
-        Test V1ObjectGraphNode
-        """
+        """Test V1ObjectGraphNode"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_object_graph_node.V1ObjectGraphNode()
+        # model = kubevirt.models.v1_object_graph_node.V1ObjectGraphNode()  # noqa: E501
         pass
 
 

@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_rtc_timer import V1RTCTimer  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_rtc_timer import V1RTCTimer
 
 
 class TestV1RTCTimer(unittest.TestCase):
-    """ V1RTCTimer unit test stubs """
+    """V1RTCTimer unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1RTCTimer(unittest.TestCase):
         pass
 
     def testV1RTCTimer(self):
-        """
-        Test V1RTCTimer
-        """
+        """Test V1RTCTimer"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_rtc_timer.V1RTCTimer()
+        # model = kubevirt.models.v1_rtc_timer.V1RTCTimer()  # noqa: E501
         pass
 
 

@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_qemu_guest_agent_ssh_public_key_access_credential_propagation import V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_qemu_guest_agent_ssh_public_key_access_credential_propagation import V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation
 
 
 class TestV1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation(unittest.TestCase):
-    """ V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation unit test stubs """
+    """V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation(unittest.TestC
         pass
 
     def testV1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation(self):
-        """
-        Test V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation
-        """
+        """Test V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_qemu_guest_agent_ssh_public_key_access_credential_propagation.V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation()
+        # model = kubevirt.models.v1_qemu_guest_agent_ssh_public_key_access_credential_propagation.V1QemuGuestAgentSSHPublicKeyAccessCredentialPropagation()  # noqa: E501
         pass
 
 

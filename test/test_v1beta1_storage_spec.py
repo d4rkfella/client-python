@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1beta1_storage_spec import V1beta1StorageSpec  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1beta1_storage_spec import V1beta1StorageSpec
 
 
 class TestV1beta1StorageSpec(unittest.TestCase):
-    """ V1beta1StorageSpec unit test stubs """
+    """V1beta1StorageSpec unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1beta1StorageSpec(unittest.TestCase):
         pass
 
     def testV1beta1StorageSpec(self):
-        """
-        Test V1beta1StorageSpec
-        """
+        """Test V1beta1StorageSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1beta1_storage_spec.V1beta1StorageSpec()
+        # model = kubevirt.models.v1beta1_storage_spec.V1beta1StorageSpec()  # noqa: E501
         pass
 
 

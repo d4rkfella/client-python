@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_disk_io_threads import V1DiskIOThreads  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_disk_io_threads import V1DiskIOThreads
 
 
 class TestV1DiskIOThreads(unittest.TestCase):
-    """ V1DiskIOThreads unit test stubs """
+    """V1DiskIOThreads unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1DiskIOThreads(unittest.TestCase):
         pass
 
     def testV1DiskIOThreads(self):
-        """
-        Test V1DiskIOThreads
-        """
+        """Test V1DiskIOThreads"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_disk_io_threads.V1DiskIOThreads()
+        # model = kubevirt.models.v1_disk_io_threads.V1DiskIOThreads()  # noqa: E501
         pass
 
 

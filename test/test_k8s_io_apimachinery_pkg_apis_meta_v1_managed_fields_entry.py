@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_managed_fields_entry import K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_managed_fields_entry import K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry
 
 
 class TestK8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry(unittest.TestCase):
-    """ K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry unit test stubs """
+    """K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestK8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry(unittest.TestCase):
         pass
 
     def testK8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry(self):
-        """
-        Test K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry
-        """
+        """Test K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_managed_fields_entry.K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry()
+        # model = kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_managed_fields_entry.K8sIoApimachineryPkgApisMetaV1ManagedFieldsEntry()  # noqa: E501
         pass
 
 

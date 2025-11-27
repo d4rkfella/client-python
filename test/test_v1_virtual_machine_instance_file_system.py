@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_virtual_machine_instance_file_system import V1VirtualMachineInstanceFileSystem  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_virtual_machine_instance_file_system import V1VirtualMachineInstanceFileSystem
 
 
 class TestV1VirtualMachineInstanceFileSystem(unittest.TestCase):
-    """ V1VirtualMachineInstanceFileSystem unit test stubs """
+    """V1VirtualMachineInstanceFileSystem unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1VirtualMachineInstanceFileSystem(unittest.TestCase):
         pass
 
     def testV1VirtualMachineInstanceFileSystem(self):
-        """
-        Test V1VirtualMachineInstanceFileSystem
-        """
+        """Test V1VirtualMachineInstanceFileSystem"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_virtual_machine_instance_file_system.V1VirtualMachineInstanceFileSystem()
+        # model = kubevirt.models.v1_virtual_machine_instance_file_system.V1VirtualMachineInstanceFileSystem()  # noqa: E501
         pass
 
 

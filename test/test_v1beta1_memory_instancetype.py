@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1beta1_memory_instancetype import V1beta1MemoryInstancetype  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1beta1_memory_instancetype import V1beta1MemoryInstancetype
 
 
 class TestV1beta1MemoryInstancetype(unittest.TestCase):
-    """ V1beta1MemoryInstancetype unit test stubs """
+    """V1beta1MemoryInstancetype unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1beta1MemoryInstancetype(unittest.TestCase):
         pass
 
     def testV1beta1MemoryInstancetype(self):
-        """
-        Test V1beta1MemoryInstancetype
-        """
+        """Test V1beta1MemoryInstancetype"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1beta1_memory_instancetype.V1beta1MemoryInstancetype()
+        # model = kubevirt.models.v1beta1_memory_instancetype.V1beta1MemoryInstancetype()  # noqa: E501
         pass
 
 

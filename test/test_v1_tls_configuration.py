@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_tls_configuration import V1TLSConfiguration  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_tls_configuration import V1TLSConfiguration
 
 
 class TestV1TLSConfiguration(unittest.TestCase):
-    """ V1TLSConfiguration unit test stubs """
+    """V1TLSConfiguration unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1TLSConfiguration(unittest.TestCase):
         pass
 
     def testV1TLSConfiguration(self):
-        """
-        Test V1TLSConfiguration
-        """
+        """Test V1TLSConfiguration"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_tls_configuration.V1TLSConfiguration()
+        # model = kubevirt.models.v1_tls_configuration.V1TLSConfiguration()  # noqa: E501
         pass
 
 

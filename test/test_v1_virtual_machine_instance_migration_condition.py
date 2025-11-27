@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_virtual_machine_instance_migration_condition import V1VirtualMachineInstanceMigrationCondition  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_virtual_machine_instance_migration_condition import V1VirtualMachineInstanceMigrationCondition
 
 
 class TestV1VirtualMachineInstanceMigrationCondition(unittest.TestCase):
-    """ V1VirtualMachineInstanceMigrationCondition unit test stubs """
+    """V1VirtualMachineInstanceMigrationCondition unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1VirtualMachineInstanceMigrationCondition(unittest.TestCase):
         pass
 
     def testV1VirtualMachineInstanceMigrationCondition(self):
-        """
-        Test V1VirtualMachineInstanceMigrationCondition
-        """
+        """Test V1VirtualMachineInstanceMigrationCondition"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_virtual_machine_instance_migration_condition.V1VirtualMachineInstanceMigrationCondition()
+        # model = kubevirt.models.v1_virtual_machine_instance_migration_condition.V1VirtualMachineInstanceMigrationCondition()  # noqa: E501
         pass
 
 

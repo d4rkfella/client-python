@@ -1,6 +1,6 @@
 {
 "packageName": "kubevirt",
 "projectName": "kubevirt-py",
-"packageUrl": "https://github.com/kubevirt/client-python",
-"packageVersion": "v1.7.0-beta.0-470-geb520d6967"
+"packageUrl": "https://github.com/d4rkfella/client-python",
+"packageVersion": "1.6.3"
 }

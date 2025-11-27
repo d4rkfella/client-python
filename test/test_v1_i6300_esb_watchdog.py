@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_i6300_esb_watchdog import V1I6300ESBWatchdog  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_i6300_esb_watchdog import V1I6300ESBWatchdog
 
 
 class TestV1I6300ESBWatchdog(unittest.TestCase):
-    """ V1I6300ESBWatchdog unit test stubs """
+    """V1I6300ESBWatchdog unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1I6300ESBWatchdog(unittest.TestCase):
         pass
 
     def testV1I6300ESBWatchdog(self):
-        """
-        Test V1I6300ESBWatchdog
-        """
+        """Test V1I6300ESBWatchdog"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_i6300_esb_watchdog.V1I6300ESBWatchdog()
+        # model = kubevirt.models.v1_i6300_esb_watchdog.V1I6300ESBWatchdog()  # noqa: E501
         pass
 
 

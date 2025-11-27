@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_panic_device import V1PanicDevice  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_panic_device import V1PanicDevice
 
 
 class TestV1PanicDevice(unittest.TestCase):
-    """ V1PanicDevice unit test stubs """
+    """V1PanicDevice unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1PanicDevice(unittest.TestCase):
         pass
 
     def testV1PanicDevice(self):
-        """
-        Test V1PanicDevice
-        """
+        """Test V1PanicDevice"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_panic_device.V1PanicDevice()
+        # model = kubevirt.models.v1_panic_device.V1PanicDevice()  # noqa: E501
         pass
 
 

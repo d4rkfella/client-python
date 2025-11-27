@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_virtual_machine_instance_profile import V1VirtualMachineInstanceProfile  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_virtual_machine_instance_profile import V1VirtualMachineInstanceProfile
 
 
 class TestV1VirtualMachineInstanceProfile(unittest.TestCase):
-    """ V1VirtualMachineInstanceProfile unit test stubs """
+    """V1VirtualMachineInstanceProfile unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1VirtualMachineInstanceProfile(unittest.TestCase):
         pass
 
     def testV1VirtualMachineInstanceProfile(self):
-        """
-        Test V1VirtualMachineInstanceProfile
-        """
+        """Test V1VirtualMachineInstanceProfile"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_virtual_machine_instance_profile.V1VirtualMachineInstanceProfile()
+        # model = kubevirt.models.v1_virtual_machine_instance_profile.V1VirtualMachineInstanceProfile()  # noqa: E501
         pass
 
 

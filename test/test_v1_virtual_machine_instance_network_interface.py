@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_virtual_machine_instance_network_interface import V1VirtualMachineInstanceNetworkInterface  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_virtual_machine_instance_network_interface import V1VirtualMachineInstanceNetworkInterface
 
 
 class TestV1VirtualMachineInstanceNetworkInterface(unittest.TestCase):
-    """ V1VirtualMachineInstanceNetworkInterface unit test stubs """
+    """V1VirtualMachineInstanceNetworkInterface unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1VirtualMachineInstanceNetworkInterface(unittest.TestCase):
         pass
 
     def testV1VirtualMachineInstanceNetworkInterface(self):
-        """
-        Test V1VirtualMachineInstanceNetworkInterface
-        """
+        """Test V1VirtualMachineInstanceNetworkInterface"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_virtual_machine_instance_network_interface.V1VirtualMachineInstanceNetworkInterface()
+        # model = kubevirt.models.v1_virtual_machine_instance_network_interface.V1VirtualMachineInstanceNetworkInterface()  # noqa: E501
         pass
 
 

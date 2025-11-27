@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_sysprep_source import V1SysprepSource  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_sysprep_source import V1SysprepSource
 
 
 class TestV1SysprepSource(unittest.TestCase):
-    """ V1SysprepSource unit test stubs """
+    """V1SysprepSource unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1SysprepSource(unittest.TestCase):
         pass
 
     def testV1SysprepSource(self):
-        """
-        Test V1SysprepSource
-        """
+        """Test V1SysprepSource"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_sysprep_source.V1SysprepSource()
+        # model = kubevirt.models.v1_sysprep_source.V1SysprepSource()  # noqa: E501
         pass
 
 

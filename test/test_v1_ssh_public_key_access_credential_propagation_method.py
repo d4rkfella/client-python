@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_ssh_public_key_access_credential_propagation_method import V1SSHPublicKeyAccessCredentialPropagationMethod  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_ssh_public_key_access_credential_propagation_method import V1SSHPublicKeyAccessCredentialPropagationMethod
 
 
 class TestV1SSHPublicKeyAccessCredentialPropagationMethod(unittest.TestCase):
-    """ V1SSHPublicKeyAccessCredentialPropagationMethod unit test stubs """
+    """V1SSHPublicKeyAccessCredentialPropagationMethod unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1SSHPublicKeyAccessCredentialPropagationMethod(unittest.TestCase):
         pass
 
     def testV1SSHPublicKeyAccessCredentialPropagationMethod(self):
-        """
-        Test V1SSHPublicKeyAccessCredentialPropagationMethod
-        """
+        """Test V1SSHPublicKeyAccessCredentialPropagationMethod"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_ssh_public_key_access_credential_propagation_method.V1SSHPublicKeyAccessCredentialPropagationMethod()
+        # model = kubevirt.models.v1_ssh_public_key_access_credential_propagation_method.V1SSHPublicKeyAccessCredentialPropagationMethod()  # noqa: E501
         pass
 
 

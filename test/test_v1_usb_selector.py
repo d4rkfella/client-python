@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_usb_selector import V1USBSelector  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_usb_selector import V1USBSelector
 
 
 class TestV1USBSelector(unittest.TestCase):
-    """ V1USBSelector unit test stubs """
+    """V1USBSelector unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1USBSelector(unittest.TestCase):
         pass
 
     def testV1USBSelector(self):
-        """
-        Test V1USBSelector
-        """
+        """Test V1USBSelector"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_usb_selector.V1USBSelector()
+        # model = kubevirt.models.v1_usb_selector.V1USBSelector()  # noqa: E501
         pass
 
 

@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_device_resource_claim_status import V1DeviceResourceClaimStatus  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_device_resource_claim_status import V1DeviceResourceClaimStatus
 
 
 class TestV1DeviceResourceClaimStatus(unittest.TestCase):
-    """ V1DeviceResourceClaimStatus unit test stubs """
+    """V1DeviceResourceClaimStatus unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1DeviceResourceClaimStatus(unittest.TestCase):
         pass
 
     def testV1DeviceResourceClaimStatus(self):
-        """
-        Test V1DeviceResourceClaimStatus
-        """
+        """Test V1DeviceResourceClaimStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_device_resource_claim_status.V1DeviceResourceClaimStatus()
+        # model = kubevirt.models.v1_device_resource_claim_status.V1DeviceResourceClaimStatus()  # noqa: E501
         pass
 
 

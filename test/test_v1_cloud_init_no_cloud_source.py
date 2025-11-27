@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.v1_cloud_init_no_cloud_source import V1CloudInitNoCloudSource  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.v1_cloud_init_no_cloud_source import V1CloudInitNoCloudSource
 
 
 class TestV1CloudInitNoCloudSource(unittest.TestCase):
-    """ V1CloudInitNoCloudSource unit test stubs """
+    """V1CloudInitNoCloudSource unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestV1CloudInitNoCloudSource(unittest.TestCase):
         pass
 
     def testV1CloudInitNoCloudSource(self):
-        """
-        Test V1CloudInitNoCloudSource
-        """
+        """Test V1CloudInitNoCloudSource"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.v1_cloud_init_no_cloud_source.V1CloudInitNoCloudSource()
+        # model = kubevirt.models.v1_cloud_init_no_cloud_source.V1CloudInitNoCloudSource()  # noqa: E501
         pass
 
 

@@ -3,7 +3,7 @@
 """
     KubeVirt API
 
-    This is KubeVirt API an add-on for Kubernetes.
+    This is KubeVirt API an add-on for Kubernetes.  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: kubevirt-dev@googlegroups.com
@@ -13,17 +13,15 @@
 
 from __future__ import absolute_import
 
-import os
-import sys
 import unittest
 
 import kubevirt
+from kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_group_version_for_discovery import K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery  # noqa: E501
 from kubevirt.rest import ApiException
-from kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_group_version_for_discovery import K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery
 
 
 class TestK8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery(unittest.TestCase):
-    """ K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery unit test stubs """
+    """K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery unit test stubs"""
 
     def setUp(self):
         pass
@@ -32,11 +30,9 @@ class TestK8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery(unittest.TestCa
         pass
 
     def testK8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery(self):
-        """
-        Test K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery
-        """
+        """Test K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery"""
         # FIXME: construct object with mandatory attributes with example values
-        #model = kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_group_version_for_discovery.K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery()
+        # model = kubevirt.models.k8s_io_apimachinery_pkg_apis_meta_v1_group_version_for_discovery.K8sIoApimachineryPkgApisMetaV1GroupVersionForDiscovery()  # noqa: E501
         pass
 
 
